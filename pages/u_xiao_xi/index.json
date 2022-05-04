@@ -1,0 +1,4 @@
+{
+  "usingComponents": {"a":"/materials/gsd-h5-react/components/container/index","b":"/materials/CLOUDBASE_STANDARD/Layout/index","c":"/materials/CLOUDBASE_STANDARD/Item/index","d":"/materials/CLOUDBASE_STANDARD/Divider/index","e":"/materials/CLOUDBASE_STANDARD/Title/index","f":"/materials/gsd-h5-react/components/listView/index","g":"/materials/gsd-h5-react/components/text/index","h":"/materials/CLOUDBASE_STANDARD/Icon/index","i":"/materials/CLOUDBASE_STANDARD/TabBar/index"},
+"navigationBarTitleText":"消息"
+}

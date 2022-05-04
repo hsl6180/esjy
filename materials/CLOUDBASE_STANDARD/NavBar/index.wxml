@@ -1,0 +1,25 @@
+<wxs src="/common/utils.wxs" module="wxsUtils"/>
+<a id="id1" style="{{id1.style}};{{style}}" className="wa-comp-CLOUDBASE_STANDARD-NavBar {{id1.className}} {{className}}" title="{{id1.title}}">
+	<a id="id2" style="{{id2.style}}" className="{{id2.className}}" wx:if="{{id2._waIf}}" title="{{id2.title}}"/>
+	<a id="id3" style="{{id3.style}}" className="{{id3.className}}" title="{{id3.title}}">
+		<a id="id4" style="{{id4.style}}" className="{{id4.className}}" title="{{id4.title}}"/>
+		<a id="id5" style="{{id5.style}}" className="{{id5.className}}" title="{{id5.title}}">
+			<a id="id6" style="{{id6.style}}" className="{{id6.className}}" title="{{id6.title}}">
+				<a id="id9" style="{{id9.style}}" className="{{id9.className}}" wx:if="{{id9._waIf}}" title="{{id9.title}}" bind:tap="onid9$tap"/>
+				<a id="id10" style="{{id10.style}}" className="{{id10.className}}" wx:if="{{id10._waIf}}" title="{{id10.title}}" bind:tap="onid10$tap"/>
+				<a id="id11" style="{{id11.style}}" className="{{id11.className}}" wx:if="{{id11._waIf}}" title="{{id11.title}}">
+					<a id="id13" style="{{id13.style}}" className="{{id13.className}}" title="{{id13.title}}" bind:tap="onid13$tap"/>
+					<a id="id14" style="{{id14.style}}" className="{{id14.className}}" title="{{id14.title}}" bind:tap="onid14$tap"/>
+				</a>
+				<slot name="start" wx:if="{{id12._waIf}}"/>
+			</a>
+			<a id="id7" style="{{id7.style}}" className="{{id7.className}}" title="{{id7.title}}">
+				<b id="id15" style="{{id15.style}}" className="{{id15.className}}" wx:if="{{title}}" text="{{title}}" level="{{id15.level}}" space="{{id15.space}}" maxLines="{{id15.maxLines}}" userSelect="{{id15.userSelect}}">{{title}}</b>
+				<slot name="center" wx:if="{{id16._waIf}}"/>
+			</a>
+			<a id="id8" style="{{id8.style}}" className="{{id8.className}}" title="{{id8.title}}">
+				<slot name="end"/>
+			</a>
+		</a>
+	</a>
+</a>

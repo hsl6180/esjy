@@ -1,0 +1,4 @@
+{
+  "usingComponents": {"a":"/materials/gsd-h5-react/components/container/index","b":"/materials/CLOUDBASE_STANDARD/Title/index","c":"/materials/gsd-h5-react/components/listView/index","d":"/materials/gsd-h5-react/components/text/index","e":"/materials/CLOUDBASE_STANDARD/Icon/index","f":"/materials/CLOUDBASE_STANDARD/TabBar/index"},
+"navigationBarTitleText":"我的订单"
+}

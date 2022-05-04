@@ -1,0 +1,20 @@
+<wxs src="/common/utils.wxs" module="wxsUtils"/>
+<a id="id1" style="{{id1.style}};{{style}}" className="wa-comp-CLOUDBASE_STANDARD-Item {{id1.className}} {{className}}" title="{{id1.title}}" bind:tap="onid1$tap">
+	<slot name="customIcon"/>
+	<a id="id3" style="{{id3.style}}" className="{{id3.className}}" title="{{id3.title}}">
+		<a id="id4" style="{{id4.style}}" className="{{id4.className}}" wx:if="{{title}}" title="{{id4.title}}">
+			<b id="id8" style="{{id8.style}}" className="{{id8.className}}" wx:if="{{title}}" text="{{title}}" space="{{id8.space}}" maxLines="{{id8.maxLines}}" userSelect="{{id8.userSelect}}">{{title}}</b>
+		</a>
+		<a id="id5" style="{{id5.style}}" className="{{id5.className}}" wx:if="{{description}}" title="{{id5.title}}">
+			<b id="id9" style="{{id9.style}}" className="{{id9.className}}" wx:if="{{description}}" text="{{description}}">{{description}}</b>
+		</a>
+		<slot name="customTitle"/>
+	</a>
+	<a id="id7" style="{{id7.style}}" className="{{id7.className}}" title="{{id7.title}}">
+		<a id="id10" style="{{id10.style}}" className="{{id10.className}}" wx:if="{{value}}" title="{{id10.title}}">
+			<b id="id11" style="{{id11.style}}" className="{{id11.className}}" wx:if="{{value}}" text="{{value}}">{{value}}</b>
+		</a>
+		<slot name="customValue"/>
+	</a>
+	<c id="id13" style="{{id13.style}}" className="{{id13.className}}" wx:if="{{detail}}" src="{{wxsUtils._getStaticResourceAttribute(id13.src)}}" name="{{id13.name}}" size="{{id13.size}}" color="{{id13.color}}"/>
+</a>

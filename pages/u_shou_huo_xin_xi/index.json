@@ -1,0 +1,4 @@
+{
+  "usingComponents": {"a":"/materials/gsd-h5-react/components/container/index","b":"/materials/CLOUDBASE_STANDARD/Title/index","c":"/materials/CLOUDBASE_STANDARD/Button/index","d":"/materials/CLOUDBASE_STANDARD/FormInput/index"},
+"navigationBarTitleText":"收货信息"
+}

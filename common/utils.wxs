@@ -1,0 +1,11 @@
+function getStaticResourceAttribute(staticUrl) {
+  if (staticUrl && staticUrl[0] == '/') {
+    var domain = 'lowcode-4gmep78m8d245924-1305094338.tcloudbaseapp.com'
+    return 'https://' + domain + staticUrl;
+  }
+  return staticUrl
+}
+
+module.exports = {
+  _getStaticResourceAttribute: getStaticResourceAttribute
+}

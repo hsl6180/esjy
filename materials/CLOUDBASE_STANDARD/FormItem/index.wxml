@@ -1,0 +1,5 @@
+<wxs src="/common/utils.wxs" module="wxsUtils"/>
+<a id="id9" style="{{id9.style}};{{style}}" className="wa-comp-CLOUDBASE_STANDARD-FormItem {{id9.className}} {{className}}" title="{{id9.title}}">
+	<slot name="contentSlot"/>
+	<b id="id11" style="{{id11.style}}" className="{{id11.className}}" wx:if="{{id11._waIf}}" tips="{{id11.tips}}" type="{{id11.type}}"/>
+</a>

@@ -1,0 +1,12 @@
+<wxs src="/common/utils.wxs" module="wxsUtils"/>
+<a id="id2" style="{{id2.style}};{{style}}" className="wa-comp-CLOUDBASE_STANDARD-Layout {{id2.className}} {{className}}" title="{{id2.title}}">
+	<a id="id3" style="{{id3.style}}" className="{{id3.className}}" title="{{id3.title}}">
+		<slot name="header"/>
+	</a>
+	<a id="id7" style="{{id7.style}}" className="{{id7.className}}" title="{{id7.title}}">
+		<slot name="content"/>
+	</a>
+	<a id="id9" style="{{id9.style}}" className="{{id9.className}}" title="{{id9.title}}">
+		<slot name="footer"/>
+	</a>
+</a>

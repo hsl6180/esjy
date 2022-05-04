@@ -1,0 +1,28 @@
+<block wx:if="{{weDaHasLogin}}">
+	<wxs src="/common/utils.wxs" module="wxsUtils" data-weui-theme="light"/>
+	<a id="id46" style="{{id46.style}}" className="{{id46.className}}" title="{{id46.title}}">
+		<e id="id48" style="{{id48.style}}" className="{{id48.className}}" color="{{id48.color}}" justify="{{id48.justify}}" level="{{id48.level}}" text="{{id48.text}}">{{id48.text}}</e>
+		<a id="id47" style="{{id47.style}}" className="{{id47.className}}" title="{{id47.title}}">
+			<a id="id95" style="{{id95.style}}" className="{{id95.className}}" wx:if="{{id95._waIf}}" title="{{id95.title}}" bind:tap="onid95$tap">
+				<c id="id98" style="{{id98.style}}" className="{{id98.className}}" borderPosition="{{id98.borderPosition}}" bordered="{{id98.bordered}}" description="{{id98.description}}" detail="{{id98.detail}}" isClickable="{{id98.isClickable}}" title="{{id98.title}}" titleWidth="{{id98.titleWidth}}" value="{{id98.value}}"/>
+				<b id="id97" style="{{id97.style}}" className="{{id97.className}}" content="{{id97.content}}" footer="{{id97.footer}}"/>
+			</a>
+			<d id="id102" style="{{id102.style}}" className="{{id102.className}}"/>
+		</a>
+		<e id="id112" style="{{id112.style}}" className="{{id112.className}}" color="{{id112.color}}" justify="{{id112.justify}}" level="{{id112.level}}" text="{{id112.text}}">{{id112.text}}</e>
+		<f id="id104" style="{{id104.style}}" className="{{id104.className}}" datasource="{{id104.datasource}}" orderBy="{{id104.orderBy}}" orderType="{{id104.orderType}}" pageSize="{{id104.pageSize}}" pagination="{{id104.pagination}}" template="{{id104.template}}" where="{{id104.where}}" bind:onDataChange="onid104$onDataChange">
+			<a id="{{'id105'+ '-' + iid105}}" style="{{id105[iid105].style}}" className="{{id105[iid105].className}}" wx:for="{{id105}}" wx:for-index="iid105" wx:key="id" bind:tap="onid105$tap">
+				<a id="{{'id106'+ '-' + iid105}}" style="{{id106[iid105].style}}" className="{{id106[iid105].className}}">
+					<a id="{{'id107'+ '-' + iid105}}" style="{{id107[iid105].style}}" className="{{id107[iid105].className}}">
+						<g id="{{'id108'+ '-' + iid105}}" style="{{id108[iid105].style}}" className="{{id108[iid105].className}}" level="{{id108[iid105].level}}" maxLines="{{id108[iid105].maxLines}}" space="{{id108[iid105].space}}" text="{{id108[iid105].text}}" userSelect="{{id108[iid105].userSelect}}">{{id108[iid105].text}}</g>
+						<g id="{{'id109'+ '-' + iid105}}" style="{{id109[iid105].style}}" className="{{id109[iid105].className}}" level="{{id109[iid105].level}}" maxLines="{{id109[iid105].maxLines}}" space="{{id109[iid105].space}}" text="{{id109[iid105].text}}" userSelect="{{id109[iid105].userSelect}}">{{id109[iid105].text}}</g>
+					</a>
+					<a id="{{'id110'+ '-' + iid105}}" style="{{id110[iid105].style}}" className="{{id110[iid105].className}}">
+						<h id="{{'id111'+ '-' + iid105}}" style="{{id111[iid105].style}}" className="{{id111[iid105].className}}" color="{{id111[iid105].color}}" name="{{id111[iid105].name}}" size="{{id111[iid105].size}}" src="{{wxsUtils._getStaticResourceAttribute(id111[iid105].src)}}"/>
+					</a>
+				</a>
+			</a>
+		</f>
+	</a>
+	<i id="id103" style="{{id103.style}}" className="{{id103.className}}" activeColor="{{id103.activeColor}}" backgroundColor="{{id103.backgroundColor}}" backgroundImage="{{id103.backgroundImage}}" backgroundType="{{id103.backgroundType}}" color="{{id103.color}}" iconSize="{{id103.iconSize}}" layoutType="{{id103.layoutType}}" position="{{id103.position}}" route="{{id103.route}}" routeType="{{id103.routeType}}" tabs="{{id103.tabs}}" value="{{id103.value}}"/>
+</block>

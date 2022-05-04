@@ -1,0 +1,4 @@
+<wxs src="/common/utils.wxs" module="wxsUtils"/>
+<a id="id8" style="{{id8.style}};{{style}}" className="wa-comp-CLOUDBASE_STANDARD-Form {{id8.className}} {{className}}">
+	<slot name="contentSlot" slot="contentSlot"/>
+</a>

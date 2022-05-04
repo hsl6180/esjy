@@ -1,0 +1,4 @@
+{
+  "component": true,
+  "usingComponents": {"a":"/materials/CLOUDBASE_STANDARD/FormItem/index","b":"/materials/gsd-h5-react/components/form/radio/index"}
+}

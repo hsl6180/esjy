@@ -1,0 +1,4 @@
+<wxs src="/common/utils.wxs" module="wxsUtils"/>
+<a id="id1" style="{{id1.style}};{{style}}" className="wa-comp-CLOUDBASE_STANDARD-FormRadio {{id1.className}} {{className}}" name="{{name}}" rules="{{id1.rules}}" layout="{{id1.layout}}" required="{{required}}" requiredMsg="{{requiredMsg}}" requiredFlag="{{id1.requiredFlag}}" validateStatus="{{id1.validateStatus}}" submitFormatter="{{id1.submitFormatter}}" validateTrigger="{{id1.validateTrigger}}">
+	<b id="id2" style="{{id2.style}}" className="{{id2.className}}" name="{{name}}" label="{{label}}" range="{{id2.range}}" format="{{format}}" layout="{{id2.layout}}" disabled="{{disabled}}" enumName="{{enumName}}" tipBlock="{{tipBlock}}" labelVisible="{{labelVisible}}" requiredFlag="{{id2.requiredFlag}}" bind:change="onid2$change" slot="contentSlot"/>
+</a>

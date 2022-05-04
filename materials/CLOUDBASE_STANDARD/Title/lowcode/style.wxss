@@ -1,0 +1,25 @@
+.wa-comp-CLOUDBASE_STANDARD-Title {
+  /**
+ * 使用less书写样式
+ * */
+}
+.wa-comp-CLOUDBASE_STANDARD-Title .lcap-title {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5em;
+}
+.wa-comp-CLOUDBASE_STANDARD-Title .lcap-text.level_1 {
+  font-size: 64rpx !important;
+}
+.wa-comp-CLOUDBASE_STANDARD-Title .lcap-text.level_2 {
+  font-size: 56rpx !important;
+}
+.wa-comp-CLOUDBASE_STANDARD-Title .lcap-text.level_3 {
+  font-size: 48rpx !important;
+}
+.wa-comp-CLOUDBASE_STANDARD-Title .lcap-text.level_4 {
+  font-size: 40rpx !important;
+}
+.wa-comp-CLOUDBASE_STANDARD-Title .lcap-text.level_5 {
+  font-size: 32rpx !important;
+}

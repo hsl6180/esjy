@@ -1,0 +1,25 @@
+<!--components/location/location.wxml-->
+
+<view class="form-location">
+  <view class="form-location-warp">
+    <view class="form-location-label form-location_cell" wx:if="{{labelVisible}}">
+      {{label}}
+    </view>
+    <view class="form-location-con form-location_cell" bindtap="chooseSite" data-value="{{true}}" >
+      <image class="form-location-con_img" src="https://qcloudimg.tencent-cloud.cn/raw/6542e1ce1dd36a90085b2eb979801df9.png"></image>
+      <text class="form-location-con-text">选择地理位置</text>
+    </view>
+  </view>
+  <view class="form-location-addr" wx:if="{{isAddrShow}}">
+    <image wx:if="{{isAddrShow&&location.poiname}}" class="form-location-addr-image" src="https://qcloudimg.tencent-cloud.cn/raw/f9729e0b091f394110a6e12d3f4e7290.png" alt="" />
+    <view class="form-location-addr-box" >
+      <view class="form-location-addr-title">{{location.poiname}}</view>
+      <view class="form-location-addr-lat" wx:if="{{showLngLat}}">
+        {{location.longitude}}N,{{location.latitude}}E
+      </view>
+    </view>
+  </view>
+  <view style="padding-left: 32px;padding-right: 32px;margin-top: 8px;padding-bottom: 16px;" wx:if="{{showMap&&isAddrShow}}">
+    <map id="map" longitude="{{location.longitude}}" latitude="{{location.latitude}}" markers="{{markers}}" scale="16" enable-zoom="{{zoom}}" enable-scroll="{{drag}}"  style="width: 100%; height: 200px;"></map>
+  </view>
+</view>

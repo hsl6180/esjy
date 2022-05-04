@@ -1,0 +1,4 @@
+{
+  "usingComponents": {"a":"/materials/CLOUDBASE_STANDARD/NavBar/index","b":"/materials/gsd-h5-react/components/container/index","c":"/materials/gsd-h5-react/components/listView/index","d":"/materials/gsd-h5-react/components/text/index","e":"/materials/CLOUDBASE_STANDARD/Form/index","f":"/materials/CLOUDBASE_STANDARD/FormInput/index","g":"/materials/CLOUDBASE_STANDARD/Button/index"},
+"backgroundColor":"#fff","backgroundColorBottom":"#fff","backgroundColorTop":"#fff","backgroundTextStyle":"dark","navigationBarBackgroundColor":"#000","navigationBarTextStyle":"white","navigationBarTitleText":"聊天","navigationStyle":"default","pageOrientation":"portrait","reachBottomDistance":50
+}

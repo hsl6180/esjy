@@ -1,0 +1,6 @@
+<wxs src="/common/utils.wxs" module="wxsUtils"/>
+<a id="id1" style="{{id1.style}};{{style}}" className="wa-comp-CLOUDBASE_STANDARD-Icon {{id1.className}} {{className}}">
+	<a id="id2" style="{{id2.style}}" className="{{id2.className}}" bind:tap="onid2$tap">
+		<b id="id3" style="{{id3.style}}" className="{{id3.className}}" wx:if="{{id3._waIf}}" alt="{{id3.alt}}" fit="{{id3.fit}}" src="{{wxsUtils._getStaticResourceAttribute(src)}}" mode="{{id3.mode}}" lazyLoad="{{id3.lazyLoad}}" imgPreview="{{id3.imgPreview}}" maskClosable="{{id3.maskClosable}}" showMenuByLongpress="{{id3.showMenuByLongpress}}"/>
+	</a>
+</a>

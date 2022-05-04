@@ -1,0 +1,6 @@
+{
+  "name": "@cloudbase/weda-ui",
+  "miniprogram": "./",
+  "packageManager": "yarn@3.0.2",
+  "dependencies": {}
+}

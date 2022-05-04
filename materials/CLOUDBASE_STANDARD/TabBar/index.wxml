@@ -1,0 +1,6 @@
+<wxs src="/common/utils.wxs" module="wxsUtils"/>
+<a id="id2" style="{{id2.style}};{{style}}" className="wa-comp-CLOUDBASE_STANDARD-TabBar {{id2.className}} {{className}}" title="{{id2.title}}">
+	<b id="{{'id4'+ '-' + iid4}}" style="{{id4[iid4].style}}" className="{{id4[iid4].className}}" wx:for="{{tabs}}" wx:for-index="iid4" wx:key="id" icon="{{id4[iid4].icon}}" name="{{id4[iid4].name}}" color="{{color}}" title="{{id4[iid4].title}}" circle="{{id4[iid4].circle}}" actived="{{id4[iid4].actived}}" iconFont="{{id4[iid4].iconFont}}" textSize="{{id4[iid4].textSize}}" underline="{{id4[iid4].underline}}" circleSize="{{id4[iid4].circleSize}}" layoutType="{{layoutType}}" activeColor="{{activeColor}}" childIconSize="{{iconSize}}" bind:click="onid4$click">
+		<c id="{{'id5'+ '-' + iid4}}" style="{{id5[iid4].style}}" className="{{id5[iid4].className}}" wx:if="{{id5[iid4]._waIf}}" src="{{wxsUtils._getStaticResourceAttribute(id5[iid4].src)}}" name="{{id5[iid4].name}}" size="{{iconSize}}" color="{{id5[iid4].color}}" slot="activeIcon"/>
+	</b>
+</a>

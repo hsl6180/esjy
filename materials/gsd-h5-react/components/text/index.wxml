@@ -1,0 +1,6 @@
+<text
+  class="weda-text weda-ui {{className}} {{levelName}}"
+  id="{{id}}"
+  user-select="{{userSelect}}"
+  style="white-space: {{ space ? 'pre-warp' : 'pre-line'}}; {{style}}"
+>{{text}}</text>

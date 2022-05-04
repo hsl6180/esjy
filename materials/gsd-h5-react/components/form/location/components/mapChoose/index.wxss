@@ -1,0 +1,188 @@
+/* components/mapChoose/index.wxss */
+.map-choose {
+  position: fixed;
+  z-index: 100;
+  width: 100vw;
+  height: 100vh;
+  background-color: #fff;
+  left: 0;
+  top: 0;
+}
+
+.map-choose-footer {
+  display: flex;
+  align-items: self-start;
+  justify-content: center;
+  height: 60px;
+  padding-top: 8px;
+  left: 0;
+  bottom: 0;
+  position: absolute;
+  width: 100%;
+}
+
+.map-choose-footer button {
+  width: 90px;
+  margin: 0 10px;
+  font-weight: normal;
+  color: #006eff;
+  font-size: 14px;
+  border-radius: 0;
+}
+
+.map-choose-footer button:nth-child(1) {
+  background-color: #006eff;
+  color: #fff;
+}
+.map-choose-footer button:nth-child(2) {
+  border: 1px solid #cfd5de;
+  background-color: #fff;
+}
+
+.map-choose-header {
+  height: 30px;
+  margin: 0 20px;
+  line-height: 30px;
+  font-weight: 700;
+  position: relative;
+}
+
+.cross {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 51%;
+  right: 0;
+  transform: translate(0, -48%);
+}
+
+.cross::before,
+.cross::after {
+  content: '';
+  width: 2px;
+  height: 18px;
+  background: #93979b;
+  position: absolute;
+  right: 10px;
+}
+
+.cross::before {
+  transform: rotate(45deg);
+}
+
+.cross::after {
+  transform: rotate(-45deg);
+}
+
+.map-choose-body {
+  height: calc(100% - 98px);
+}
+
+.map-choose-body-saerch {
+  padding: 8px 20px;
+  position: relative;
+  border-bottom: 1px solid #d3d3d3;
+}
+
+.map-choose-header_search_input {
+  height: 30px;
+  background-color: #ebebeb;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #b4b4b4;
+  font-size: 15px;
+  line-height: 31px;
+  border-radius: 5px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  position: relative;
+  display: flex;
+}
+
+.map-choose-header_search_input_value {
+  padding-right: 60px;
+}
+
+.map-choose-header_search_input input {
+  height: 30px;
+  line-height: 30px;
+  width: 100%;
+  position: relative;
+  z-index: 1;
+}
+
+.map-choose-header_search_input_cancle {
+  color: #006eff;
+  position: absolute;
+  height: 30px;
+  line-height: 30px;
+  top: 8px;
+  right: 20px;
+}
+
+.map-choose-header_search_place {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  display: flex;
+  align-items: center;
+  transform: translate(-50%, 0);
+}
+.map-choose-header_search_place image {
+  width: 14px;
+  height: 14px;
+}
+
+.map-choose-search,
+.map-choose-explore {
+  width: 100%;
+  height: calc(100% - 47px);
+}
+
+.map-choose-explore_ul {
+  height: calc(100% - 200px);
+  overflow-y: scroll;
+  padding: 0 20px;
+}
+
+.map-choose-search_ul {
+  height: 100%;
+}
+
+.map-choose-explore_li {
+  width: 100%;
+  height: 46px;
+  padding-top: 6px;
+  position: relative;
+  border-bottom: 1px solid #d3d3d3;
+  cursor: pointer;
+  position: relative;
+  font-size: 12px;
+  padding-bottom: 3px;
+}
+
+.map-choose-explore_li_arow {
+  display: none;
+}
+
+.map-choose-explore_li_choosed .map-choose-explore_li_arow {
+  display: block;
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translate(0, -50%);
+  width: 16px;
+  height: 16px;
+  display: block !important;
+  background-image: url('https://qcloudimg.tencent-cloud.cn/raw/354c15c0cb845120ac3e9c474e6737b3.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.map-choose-explore_li_con {
+  width: 98%;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}

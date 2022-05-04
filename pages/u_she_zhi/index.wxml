@@ -1,0 +1,16 @@
+<block wx:if="{{weDaHasLogin}}">
+	<wxs src="/common/utils.wxs" module="wxsUtils" data-weui-theme="light"/>
+	<f id="id84" style="{{id84.style}}" className="{{id84.className}}" activeColor="{{id84.activeColor}}" backgroundColor="{{id84.backgroundColor}}" backgroundImage="{{id84.backgroundImage}}" backgroundType="{{id84.backgroundType}}" color="{{id84.color}}" iconSize="{{id84.iconSize}}" layoutType="{{id84.layoutType}}" position="{{id84.position}}" route="{{id84.route}}" routeType="{{id84.routeType}}" tabs="{{id84.tabs}}" value="{{id84.value}}"/>
+	<a id="id46" style="{{id46.style}}" className="{{id46.className}}" title="{{id46.title}}">
+		<b id="id66" style="{{id66.style}}" className="{{id66.className}}" borderPosition="{{id66.borderPosition}}" bordered="{{id66.bordered}}" description="{{id66.description}}" detail="{{id66.detail}}" isClickable="{{id66.isClickable}}" title="{{id66.title}}" titleWidth="{{id66.titleWidth}}" value="{{id66.value}}"/>
+		<b id="id70" style="{{id70.style}}" className="{{id70.className}}" borderPosition="{{id70.borderPosition}}" bordered="{{id70.bordered}}" description="{{id70.description}}" detail="{{id70.detail}}" isClickable="{{id70.isClickable}}" title="{{id70.title}}" titleWidth="{{id70.titleWidth}}" value="{{id70.value}}"/>
+		<c id="id73" style="{{id73.style}}" className="{{id73.className}}"/>
+		<b id="id72" style="{{id72.style}}" className="{{id72.className}}" bordered="{{id72.bordered}}" description="{{id72.description}}" detail="{{id72.detail}}" isClickable="{{id72.isClickable}}" title="{{id72.title}}" titleWidth="{{id72.titleWidth}}" value="{{id72.value}}"/>
+		<b id="id74" style="{{id74.style}}" className="{{id74.className}}" bordered="{{id74.bordered}}" description="{{id74.description}}" detail="{{id74.detail}}" isClickable="{{id74.isClickable}}" title="{{id74.title}}" titleWidth="{{id74.titleWidth}}" value="{{id74.value}}"/>
+		<c id="id77" style="{{id77.style}}" className="{{id77.className}}"/>
+		<a id="id79" style="{{id79.style}}" className="{{id79.className}}">
+			<e id="id85" style="{{id85.style}}" className="{{id85.className}}" language="{{id85.language}}" size="{{id85.size}}" text="{{id85.text}}" type="{{id85.type}}" usage="{{id85.usage}}" bind:userinfosuccess="onid85$userinfosuccess">{{id85.text}}</e>
+		</a>
+		<d id="id78" style="{{id78.style}}" className="{{id78.className}}" level="{{id78.level}}" maxLines="{{id78.maxLines}}" space="{{id78.space}}" text="{{id78.text}}" userSelect="{{id78.userSelect}}" bind:tap="onid78$tap">{{id78.text}}</d>
+	</a>
+</block>

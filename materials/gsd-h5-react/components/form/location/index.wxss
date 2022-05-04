@@ -1,0 +1,91 @@
+/* components/location/location.wxss */
+
+.form-location {
+}
+
+.form-location-warp {
+  display: flex;
+  white-space: nowrap;
+  position: relative;
+  overflow: hidden;
+}
+
+.form-location::before,
+.form-location::after {
+  left: 32px;
+  right: 32px;
+  content: ' ';
+  position: absolute;
+  height: 0px;
+  z-index: 2;
+  color: #e2e1e1;
+  border-top: 1px solid #e2e1e1;
+}
+
+.form-location-warp::after {
+  bottom: 0;
+}
+
+.form-location-con {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+.form-location-label_flag {
+  display: inline-block;
+  margin-right: 4px;
+  font-family: SimSun;
+  font-size: 12px;
+  color: #f60;
+}
+
+.form-location-label {
+  max-width: 150px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.form-location-con_img {
+  min-width: 18px;
+  width: 18px;
+  height: 18px;
+}
+.form-location-con-text {
+  color: #006eff;
+  margin-left: 8px;
+  cursor: pointer;
+}
+
+.form-location_cell {
+  padding: 16px 32px;
+  line-height: 1.41176471;
+  font-size: 17px;
+  overflow: hidden;
+  position: relative;
+}
+
+.form-location-addr {
+  display: flex;
+  align-items: flex-start;
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
+.form-location-addr-title {
+  font-size: 16px;
+}
+.form-location-addr-lat {
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.4);
+  line-height: 20px;
+}
+
+.form-location-addr-image {
+  width: 19px;
+  height: 19px;
+}
+.form-location-addr-box {
+  margin-left: 12px;
+}

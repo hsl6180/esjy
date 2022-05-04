@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16px" height="16px" viewBox="0 0 16 16" version="1.1">
+    <title>chevron-right</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icons" transform="translate(-320.000000, -951.000000)">
+            <g id="chevron-right" transform="translate(320.000000, 951.000000)">
+                <path d="M16,0 L16,16 L0,16 L0,0 L16,0 Z" id="矩形" opacity="0.600000024" transform="translate(8.000000, 8.000000) scale(-1, -1) rotate(90.000003) translate(-8.000000, -8.000000) "/>
+                <path d="M4.68942324,5.31054639 L8.22980396,8.85092687 L11.7701844,5.31054639 L12.6894235,6.2297852 L8.22980396,10.6894045 L3.77018443,6.2297852 L4.68942324,5.31054639 Z" id="路径-4-(Stroke)" fill="#000000" transform="translate(8.229804, 7.999975) scale(-1, -1) rotate(90.000003) translate(-8.229804, -7.999975) "/>
+            </g>
+        </g>
+    </g>
+</svg>

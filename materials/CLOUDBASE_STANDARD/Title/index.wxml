@@ -1,0 +1,6 @@
+<wxs src="/common/utils.wxs" module="wxsUtils"/>
+<a id="id1" style="{{id1.style}};{{style}}" className="wa-comp-CLOUDBASE_STANDARD-Title {{id1.className}} {{className}}" title="{{id1.title}}">
+	<a id="id3" style="{{id3.style}}" className="{{id3.className}}" title="{{id3.title}}">
+		<b id="id2" style="{{id2.style}}" className="{{id2.className}}" text="{{text}}" space="{{id2.space}}" maxLines="{{id2.maxLines}}" userSelect="{{id2.userSelect}}">{{text}}</b>
+	</a>
+</a>

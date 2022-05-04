@@ -1,0 +1,18 @@
+@import '../../../style/weda-ui.wxss';
+.weui-uploader.horizontal {
+  display: flex;
+}
+
+.weui-uploader.horizontal .weui-uploader__hd {
+  display: inline-block;
+  align-self: center;
+}
+
+.weda-uploader-pc.horizontal {
+  display: flex;
+  justify-content: space-between;
+}
+
+.weui-uploader.horizontal .weui-uploader__bd {
+  padding-left: 32px;
+}

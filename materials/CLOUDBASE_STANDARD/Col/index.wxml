@@ -1,0 +1,4 @@
+<wxs src="/common/utils.wxs" module="wxsUtils"/>
+<a id="id1" style="{{id1.style}};{{style}}" className="wa-comp-CLOUDBASE_STANDARD-Col {{id1.className}} {{className}}" title="{{id1.title}}" bind:tap="onid1$tap">
+	<slot name="default"/>
+</a>

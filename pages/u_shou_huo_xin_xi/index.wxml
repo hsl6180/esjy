@@ -1,0 +1,11 @@
+<block wx:if="{{weDaHasLogin}}">
+	<wxs src="/common/utils.wxs" module="wxsUtils" data-weui-theme="light"/>
+	<a id="id84" style="{{id84.style}}" className="{{id84.className}}" title="{{id84.title}}">
+		<b id="id86" style="{{id86.style}}" className="{{id86.className}}" color="{{id86.color}}" justify="{{id86.justify}}" level="{{id86.level}}" text="{{id86.text}}">{{id86.text}}</b>
+	</a>
+	<d id="id98" style="{{id98.style}}" className="{{id98.className}}" clearable="{{id98.clearable}}" disabled="{{id98.disabled}}" focus="{{id98.focus}}" label="{{id98.label}}" labelVisible="{{id98.labelVisible}}" layout="{{id98.layout}}" maxLength="{{id98.maxLength}}" name="{{id98.name}}" password="{{id98.password}}" placeholder="{{id98.placeholder}}" required="{{id98.required}}" rules="{{id98.rules}}" size="{{id98.size}}" type="{{id98.type}}" validateStatus="{{id98.validateStatus}}" value="{{id98.value}}" bind:focus="onid98$focus" bind:blur="onid98$blur" bind:change="onid98$change" bind:clear="onid98$clear"/>
+	<d id="id99" style="{{id99.style}}" className="{{id99.className}}" clearable="{{id99.clearable}}" disabled="{{id99.disabled}}" focus="{{id99.focus}}" label="{{id99.label}}" labelVisible="{{id99.labelVisible}}" layout="{{id99.layout}}" maxLength="{{id99.maxLength}}" name="{{id99.name}}" password="{{id99.password}}" placeholder="{{id99.placeholder}}" required="{{id99.required}}" rules="{{id99.rules}}" size="{{id99.size}}" type="{{id99.type}}" validateStatus="{{id99.validateStatus}}" value="{{id99.value}}" bind:focus="onid99$focus" bind:blur="onid99$blur" bind:change="onid99$change" bind:clear="onid99$clear"/>
+	<a id="id94" style="{{id94.style}}" className="{{id94.className}}">
+		<c id="id97" style="{{id97.style}}" className="{{id97.className}}" appParameter="{{id97.appParameter}}" categoryId="{{id97.categoryId}}" content="{{id97.content}}" disabled="{{id97.disabled}}" formType="{{id97.formType}}" loading="{{id97.loading}}" openType="{{id97.openType}}" sendMessageImg="{{id97.sendMessageImg}}" sendMessagePath="{{id97.sendMessagePath}}" sendMessageTitle="{{id97.sendMessageTitle}}" sessionFrom="{{id97.sessionFrom}}" showMessageCard="{{id97.showMessageCard}}" size="{{id97.size}}" type="{{id97.type}}" bind:tap="onid97$tap"/>
+	</a>
+</block>

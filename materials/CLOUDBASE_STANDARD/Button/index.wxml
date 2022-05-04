@@ -1,0 +1,4 @@
+<wxs src="/common/utils.wxs" module="wxsUtils"/>
+<a id="id2" style="{{id2.style}};{{style}}" className="wa-comp-CLOUDBASE_STANDARD-Button {{id2.className}} {{className}}" size="{{size}}" text="{{content}}" type="{{type}}" loading="{{loading}}" disabled="{{disabled}}" formType="{{formType}}" openType="{{openType}}" categoryId="{{id2.categoryId}}" sessionFrom="{{id2.sessionFrom}}" appParameter="{{id2.appParameter}}" sendMessageImg="{{id2.sendMessageImg}}" sendMessagePath="{{id2.sendMessagePath}}" showMessageCard="{{id2.showMessageCard}}" sendMessageTitle="{{id2.sendMessageTitle}}" bind:tap="onid2$tap" bind:contact="onid2$contact" bind:getPhoneNumber="onid2$getPhoneNumber" bind:launchApp="onid2$launchApp" bind:openSetting="onid2$openSetting">{{content}}
+	<slot name="contentSlot" slot="contentSlot"/>
+</a>

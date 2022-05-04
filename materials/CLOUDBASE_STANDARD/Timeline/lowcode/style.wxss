@@ -1,0 +1,97 @@
+.wa-comp-CLOUDBASE_STANDARD-Timeline .gsd-h5-react-busi-text-content {
+  margin: 20rpx;
+}
+.wa-comp-CLOUDBASE_STANDARD-Timeline .gsd-h5-react-busi-text-content-crosswise {
+  margin: 4rpx 10rpx;
+}
+.wa-comp-CLOUDBASE_STANDARD-Timeline .gsd-h5-react-busi-text-point-solid {
+  background: #C5C5C5;
+  border-color: #C5C5C5;
+}
+.wa-comp-CLOUDBASE_STANDARD-Timeline .gsd-h5-react-busi-text-point-outlineType {
+  border-color: #C5C5C5;
+}
+.wa-comp-CLOUDBASE_STANDARD-Timeline .gsd-h5-react-busi-point-title-text {
+  color: rgba(0, 0, 0, 0.9);
+  font-size: 28rpx;
+  font-weight: 500;
+  font-family: PingFang SC;
+}
+.wa-comp-CLOUDBASE_STANDARD-Timeline .gsd-h5-react-busi-point-des-text {
+  opacity: 1;
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 24rpx;
+  font-weight: 400;
+  font-family: PingFang SC;
+}
+.wa-comp-CLOUDBASE_STANDARD-Timeline .gsd-h5-react-busi-point-remark-text {
+  opacity: 1;
+  color: rgba(0, 0, 0, 0.4);
+  font-size: 24rpx;
+  font-weight: 400;
+  font-family: PingFang SC;
+}
+.wa-comp-CLOUDBASE_STANDARD-Timeline .gsd-h5-react-busi-point-unit-content-lengthways {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  margin-right: 32rpx;
+  margin-left: 32rpx;
+  margin-top: 10rpx;
+}
+.wa-comp-CLOUDBASE_STANDARD-Timeline .gsd-h5-react-busi-point-unit-content-crosswise {
+  width: 100%;
+  margin-top: 18rpx;
+  margin-bottom: 18rpx;
+  margin-left: 10rpx;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.wa-comp-CLOUDBASE_STANDARD-Timeline .gsd-h5-react-busi-com-content-crosswise {
+  width: 100%;
+  margin-bottom: 30rpx;
+  display: flex;
+  flex-direction: row;
+}
+.wa-comp-CLOUDBASE_STANDARD-Timeline .gsd-h5-react-busi-point-devider-crosswise {
+  width: 100%;
+  height: 3rpx;
+  border: 2rpx solid #e3e6eb;
+}
+.wa-comp-CLOUDBASE_STANDARD-Timeline .gsd-h5-react-busi-point-devider-lengthways {
+  height: 100%;
+  width: 3rpx;
+  border: 2rpx solid #e3e6eb;
+}
+.wa-comp-CLOUDBASE_STANDARD-Timeline .gsd-h5-react-busi-point-solid-content {
+  width: 16rpx;
+  height: 16rpx;
+  border: 1rpx solid;
+  border-radius: 100rpx;
+}
+.wa-comp-CLOUDBASE_STANDARD-Timeline .gsd-h5-react-busi-lengthways-left-content-title {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0 3rpx;
+}
+.wa-comp-CLOUDBASE_STANDARD-Timeline .gsd-h5-react-busi-lengthways-left-content-show {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+}
+.wa-comp-CLOUDBASE_STANDARD-Timeline .gsd-h5-react-busi-lengthways-side-content-show {
+  width: 45%;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  margin-bottom: 40rpx;
+}
+.wa-comp-CLOUDBASE_STANDARD-Timeline .gsd-h5-react-busi-lengthways-side-remark {
+  width: 40%;
+  margin-right: 0rpx;
+  display: flex ;
+  justify-content: flex-end;
+  position: static;
+}

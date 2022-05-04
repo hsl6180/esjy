@@ -1,0 +1,4 @@
+{
+  "usingComponents": {"a":"/materials/gsd-h5-react/components/container/index","b":"/materials/CLOUDBASE_STANDARD/Form/index","c":"/materials/CLOUDBASE_STANDARD/FormImageUploader/index","d":"/materials/CLOUDBASE_STANDARD/FormInput/index","e":"/materials/CLOUDBASE_STANDARD/Button/index","f":"/materials/CLOUDBASE_STANDARD/TabBar/index"},
+"navigationBarTitleText":"我的上架商品"
+}

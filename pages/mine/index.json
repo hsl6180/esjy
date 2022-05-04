@@ -1,0 +1,4 @@
+{
+  "usingComponents": {"a":"/materials/gsd-h5-react/components/container/index","b":"/materials/CLOUDBASE_STANDARD/GridLayout/index","c":"/materials/gsd-h5-react/components/image/index","d":"/materials/gsd-h5-react/components/text/index","e":"/materials/CLOUDBASE_STANDARD/NavBar/index","f":"/materials/CLOUDBASE_STANDARD/TabBar/index"},
+"backgroundColor":"#fff","backgroundColorBottom":"#fff","backgroundColorTop":"#fff","backgroundTextStyle":"dark","navigationBarBackgroundColor":"#fff","navigationBarTextStyle":"black","navigationBarTitleText":"我的","navigationStyle":"default","pageOrientation":"portrait","reachBottomDistance":50
+}

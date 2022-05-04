@@ -1,0 +1,20 @@
+<block wx:if="{{weDaHasLogin}}">
+	<wxs src="/common/utils.wxs" module="wxsUtils" data-weui-theme="light"/>
+	<a id="id154" style="{{id154.style}}" className="{{id154.className}}">
+		<b id="id163" style="{{id163.style}}" className="{{id163.className}}" datasource="{{id163.datasource}}" orderBy="{{id163.orderBy}}" orderType="{{id163.orderType}}" pageSize="{{id163.pageSize}}" pagination="{{id163.pagination}}" template="{{id163.template}}" where="{{id163.where}}" bind:onDataChange="onid163$onDataChange">
+			<a id="{{'id164'+ '-' + iid164}}" style="{{id164[iid164].style}}" className="{{id164[iid164].className}}" wx:for="{{id164}}" wx:for-index="iid164" wx:key="id">
+				<c id="{{'id171'+ '-' + iid164}}" style="{{id171[iid164].style}}" className="{{id171[iid164].className}}">
+					<d id="{{'id175'+ '-' + iid164}}" style="{{id175[iid164].style}}" className="{{id175[iid164].className}}" alt="{{id175[iid164].alt}}" fit="{{id175[iid164].fit}}" imgPreview="{{id175[iid164].imgPreview}}" lazyLoad="{{id175[iid164].lazyLoad}}" maskClosable="{{id175[iid164].maskClosable}}" mode="{{id175[iid164].mode}}" showMenuByLongpress="{{id175[iid164].showMenuByLongpress}}" src="{{wxsUtils._getStaticResourceAttribute(id175[iid164].src)}}" slot="header"/>
+					<e id="{{'id176'+ '-' + iid164}}" style="{{id176[iid164].style}}" className="{{id176[iid164].className}}" color="{{id176[iid164].color}}" justify="{{id176[iid164].justify}}" level="{{id176[iid164].level}}" text="{{id176[iid164].text}}" slot="content">{{id176[iid164].text}}</e>
+					<f id="{{'id177'+ '-' + iid164}}" style="{{id177[iid164].style}}" className="{{id177[iid164].className}}" level="{{id177[iid164].level}}" maxLines="{{id177[iid164].maxLines}}" space="{{id177[iid164].space}}" text="{{id177[iid164].text}}" userSelect="{{id177[iid164].userSelect}}" slot="footer">{{id177[iid164].text}}</f>
+				</c>
+				<f id="{{'id174'+ '-' + iid164}}" style="{{id174[iid164].style}}" className="{{id174[iid164].className}}" level="{{id174[iid164].level}}" maxLines="{{id174[iid164].maxLines}}" space="{{id174[iid164].space}}" text="{{id174[iid164].text}}" userSelect="{{id174[iid164].userSelect}}">{{id174[iid164].text}}</f>
+				<h id="{{'id220'+ '-' + iid164}}" style="{{id220[iid164].style}}" className="{{id220[iid164].className}}"/>
+				<g id="{{'id219'+ '-' + iid164}}" style="{{id219[iid164].style}}" className="{{id219[iid164].className}}" appParameter="{{id219[iid164].appParameter}}" categoryId="{{id219[iid164].categoryId}}" content="{{id219[iid164].content}}" disabled="{{id219[iid164].disabled}}" formType="{{id219[iid164].formType}}" loading="{{id219[iid164].loading}}" openType="{{id219[iid164].openType}}" sendMessageImg="{{id219[iid164].sendMessageImg}}" sendMessagePath="{{id219[iid164].sendMessagePath}}" sendMessageTitle="{{id219[iid164].sendMessageTitle}}" sessionFrom="{{id219[iid164].sessionFrom}}" showMessageCard="{{id219[iid164].showMessageCard}}" size="{{id219[iid164].size}}" type="{{id219[iid164].type}}" bind:tap="onid219$tap"/>
+			</a>
+		</b>
+		<a id="id216" style="{{id216.style}}" className="{{id216.className}}">
+			<i id="id217" style="{{id217.style}}" className="{{id217.className}}" activeColor="{{id217.activeColor}}" backgroundColor="{{id217.backgroundColor}}" backgroundImage="{{id217.backgroundImage}}" backgroundType="{{id217.backgroundType}}" color="{{id217.color}}" iconSize="{{id217.iconSize}}" layoutType="{{id217.layoutType}}" position="{{id217.position}}" route="{{id217.route}}" routeType="{{id217.routeType}}" tabs="{{id217.tabs}}" value="{{id217.value}}"/>
+		</a>
+	</a>
+</block>

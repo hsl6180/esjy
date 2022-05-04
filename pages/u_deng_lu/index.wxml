@@ -1,0 +1,6 @@
+<block wx:if="{{weDaHasLogin}}">
+	<wxs src="/common/utils.wxs" module="wxsUtils" data-weui-theme="light"/>
+	<a id="id1" style="{{id1.style}}" className="{{id1.className}}" content="{{id1.content}}" isDefaultButton="{{id1.isDefaultButton}}" visible="{{id1.visible}}" bind:comfirm="onid1$comfirm" bind:close="onid1$close">
+		<b id="id2" style="{{id2.style}}" className="{{id2.className}}" language="{{id2.language}}" size="{{id2.size}}" text="{{id2.text}}" type="{{id2.type}}" usage="{{id2.usage}}" bind:userinfosuccess="onid2$userinfosuccess" bind:wa6jde18idv_success="onid2$wa6jde18idv_success" slot="customContent">{{id2.text}}</b>
+	</a>
+</block>

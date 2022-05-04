@@ -1,0 +1,41 @@
+<wxs src="/common/utils.wxs" module="wxsUtils"/>
+<a id="id60" style="{{id60.style}};{{style}}" className="wa-comp-CLOUDBASE_STANDARD-GridLayout {{id60.className}} {{className}}" title="{{id60.title}}">
+	<b id="id61" style="{{id61.style}}" className="{{id61.className}}" col="{{id61.col}}" gutter="{{gutter}}" reverse="{{id61.reverse}}" flexWrap="{{id61.flexWrap}}" alignItems="{{id61.alignItems}}" justifyContent="{{id61.justifyContent}}">
+		<c id="id62" style="{{id62.style}}" className="{{id62.className}}" wx:if="{{id62._waIf}}" gutter="{{gutter}}" gutterY="{{rowGutter}}" classNameType="{{id62.classNameType}}" slot="child">
+			<slot name="slot0" slot="default"/>
+		</c>
+		<c id="id63" style="{{id63.style}}" className="{{id63.className}}" wx:if="{{id63._waIf}}" gutter="{{gutter}}" gutterY="{{rowGutter}}" classNameType="{{id63.classNameType}}" slot="child">
+			<slot name="slot1" slot="default"/>
+		</c>
+		<c id="id64" style="{{id64.style}}" className="{{id64.className}}" wx:if="{{id64._waIf}}" gutter="{{gutter}}" gutterY="{{rowGutter}}" classNameType="{{id64.classNameType}}" slot="child">
+			<slot name="slot2" slot="default"/>
+		</c>
+		<c id="id65" style="{{id65.style}}" className="{{id65.className}}" wx:if="{{id65._waIf}}" gutter="{{gutter}}" gutterY="{{rowGutter}}" classNameType="{{id65.classNameType}}" slot="child">
+			<slot name="slot3" slot="default"/>
+		</c>
+		<c id="id66" style="{{id66.style}}" className="{{id66.className}}" wx:if="{{id66._waIf}}" gutter="{{gutter}}" gutterY="{{rowGutter}}" classNameType="{{id66.classNameType}}" slot="child">
+			<slot name="slot4" slot="default"/>
+		</c>
+		<c id="id67" style="{{id67.style}}" className="{{id67.className}}" wx:if="{{id67._waIf}}" gutter="{{gutter}}" gutterY="{{rowGutter}}" classNameType="{{id67.classNameType}}" slot="child">
+			<slot name="slot5" slot="default"/>
+		</c>
+		<c id="id68" style="{{id68.style}}" className="{{id68.className}}" wx:if="{{id68._waIf}}" gutter="{{gutter}}" gutterY="{{rowGutter}}" classNameType="{{id68.classNameType}}" slot="child">
+			<slot name="slot6" slot="default"/>
+		</c>
+		<c id="id69" style="{{id69.style}}" className="{{id69.className}}" wx:if="{{id69._waIf}}" gutter="{{gutter}}" gutterY="{{rowGutter}}" classNameType="{{id69.classNameType}}" slot="child">
+			<slot name="slot7" slot="default"/>
+		</c>
+		<c id="id70" style="{{id70.style}}" className="{{id70.className}}" wx:if="{{id70._waIf}}" gutter="{{gutter}}" gutterY="{{rowGutter}}" classNameType="{{id70.classNameType}}" slot="child">
+			<slot name="slot8" slot="default"/>
+		</c>
+		<c id="id71" style="{{id71.style}}" className="{{id71.className}}" wx:if="{{id71._waIf}}" gutter="{{gutter}}" gutterY="{{rowGutter}}" classNameType="{{id71.classNameType}}" slot="child">
+			<slot name="slot9" slot="default"/>
+		</c>
+		<c id="id72" style="{{id72.style}}" className="{{id72.className}}" wx:if="{{id72._waIf}}" gutter="{{gutter}}" gutterY="{{rowGutter}}" classNameType="{{id72.classNameType}}" slot="child">
+			<slot name="slot10" slot="default"/>
+		</c>
+		<c id="id73" style="{{id73.style}}" className="{{id73.className}}" wx:if="{{id73._waIf}}" gutter="{{gutter}}" gutterY="{{rowGutter}}" classNameType="{{id73.classNameType}}" slot="child">
+			<slot name="slot11" slot="default"/>
+		</c>
+	</b>
+</a>

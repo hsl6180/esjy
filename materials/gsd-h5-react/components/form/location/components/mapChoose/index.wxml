@@ -1,0 +1,42 @@
+<!--components/mapChoose/index.wxml-->
+<view class="map-choose">
+  <view class="map-choose-header">
+    <view class="map-choose-header_title">选择地理位置</view>
+    <view class="cross" bindtap="comfirm" ></view>
+  </view>
+  <view class="map-choose-body">
+    <view class="map-choose-body-saerch {{isSearch?'map-choose-header_search_input_value':''}}">
+      <view class="map-choose-header_search_input">
+        <input type="text" value="{{searchValue}}" bindinput="changeInput" bindfocus="focusInput" />
+        <view class="map-choose-header_search_place" wx:if="{{!isSearch}}">
+          <image src="https://qcloudimg.tencent-cloud.cn/raw/388c48cdcbe9ca07f5682fb10d05ebdd.png"></image>
+          <text>搜索地点</text>
+        </view>
+      </view>
+      <view class="map-choose-header_search_input_cancle" wx:if="{{isSearch}}" bindtap="cancleSearch">取消</view>
+    </view>
+    <view class="map-choose-search" wx:if="{{isSearch}}">
+      <view class="map-choose-explore_ul map-choose-search_ul">
+        <view class="map-choose-explore_li" wx:for="{{searchList}}" wx:key="index" data-location="{{item}}" bindtap="chooseSite" data-type="search">
+          <view class="map-choose-explore_li_con" style="font-size: 14px;">{{item.title}} </view>
+          <view class="map-choose-explore_li_con" style="color: rgb(146, 148, 150);">{{item.address}}</view>
+          <view class="map-choose-explore_li_arow" />
+        </view>
+      </view>
+    </view>
+    <view class="map-choose-explore" wx:if="{{!isSearch}}">
+      <map id="choose-map" longitude="{{choosedLocation.longitude}}" latitude="{{choosedLocation.latitude}}" scale="14" style="width: 100%; height: 200px;" bindregionchange="regionchange" markers="{{markers}}" ></map>
+      <view class="map-choose-explore_ul">
+        <view class="map-choose-explore_li {{choosedLocation.id==item.id?'map-choose-explore_li_choosed':''}} " wx:for="{{exploreList}}" wx:key="index" data-location="{{item}}" bindtap="chooseSite">
+          <view class="map-choose-explore_li_con" style="font-size: 14px;">{{item.title}} </view>
+          <view class="map-choose-explore_li_con" style="color: rgb(146, 148, 150);">{{item.address}}</view>
+          <view class="map-choose-explore_li_arow" />
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class="map-choose-footer">
+    <button data-value="true" bindtap="comfirm">确认</button>
+    <button bindtap="comfirm">取消</button>
+  </view>
+</view>

@@ -1,0 +1,7 @@
+<block wx:if="{{weDaHasLogin}}">
+	<wxs src="/common/utils.wxs" module="wxsUtils" data-weui-theme="light"/>
+	<c id="id6" style="{{id6.style}}" className="{{id6.className}}" activeColor="{{id6.activeColor}}" backgroundColor="{{id6.backgroundColor}}" backgroundImage="{{id6.backgroundImage}}" backgroundType="{{id6.backgroundType}}" color="{{id6.color}}" iconSize="{{id6.iconSize}}" layoutType="{{id6.layoutType}}" position="{{id6.position}}" route="{{id6.route}}" routeType="{{id6.routeType}}" tabs="{{id6.tabs}}" value="{{id6.value}}"/>
+	<a id="id3" style="{{id3.style}}" className="{{id3.className}}">
+		<b id="id1" style="{{id1.style}}" className="{{id1.className}}" acceptTypes="{{id1.acceptTypes}}" descriptionFontColor="{{id1.descriptionFontColor}}" descriptionFontSize="{{id1.descriptionFontSize}}" descriptionValue="{{id1.descriptionValue}}" iconValue="{{id1.iconValue}}" pointIdValue="{{id1.pointIdValue}}" pointType="{{id1.pointType}}" remarkFontColor="{{id1.remarkFontColor}}" remarkFontSize="{{id1.remarkFontSize}}" remarkValue="{{id1.remarkValue}}" showList="{{id1.showList}}" titleFontColor="{{id1.titleFontColor}}" titleFontSize="{{id1.titleFontSize}}" titleValue="{{id1.titleValue}}"/>
+	</a>
+</block>

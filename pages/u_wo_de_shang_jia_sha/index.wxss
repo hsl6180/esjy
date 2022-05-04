@@ -1,0 +1,4 @@
+page {  }
+
+
+@import "../../lowcode/u_wo_de_shang_jia_sha/style.wxss"

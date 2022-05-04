@@ -1,0 +1,4 @@
+<wxs src="/common/utils.wxs" module="wxsUtils"/>
+<a id="id1" style="{{id1.style}};{{style}}" className="wa-comp-CLOUDBASE_STANDARD-Row {{id1.className}} {{className}}" title="{{id1.title}}">
+	<slot name="child"/>
+</a>

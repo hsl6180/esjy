@@ -1,0 +1,51 @@
+{
+  "components": {
+    "Button": "components/button/index",
+    "Markdown": "components/markdown/index",
+    "Text": "components/text/index",
+    "Image": "components/image/index",
+    "Form": "components/form/form/index",
+    "Radio": "components/form/radio/index",
+    "Checkbox": "components/form/checkbox/index",
+    "Switch": "components/form/switch/index",
+    "Input": "components/form/input/index",
+    "Location": "components/form/location/index",
+    "Textarea": "components/form/textarea/index",
+    "Select": "components/form/select/index",
+    "Uploader": "components/form/uploader/index",
+    "UploaderFile": "components/form/uploaderFile/index",
+    "Container": "components/container/index",
+    "Slot": {
+      "type": "native",
+      "path": "slot"
+    },
+    "Swiper": {
+      "type": "native",
+      "path": "swiper"
+    },
+    "Carousel": "components/carousel/index",
+    "ScrollView": "components/scrollView/index",
+    "Tips": "components/form/tips/index",
+    "RichTextView": "components/richText/index",
+    "Tabs": "components/tabs/index",
+    "ListView": "components/listView/index",
+    "NavigationBar": "components/navigationBar/index",
+    "DataView": "components/dataView/index",
+    "Calendar": "components/calendar/index",
+    "NavLayout": "components/navLayout/index",
+    "Line": "components/chart/line/index",
+    "Bar": "components/chart/bar/index",
+    "Pie": "components/chart/pie/index",
+    "StatisticsCard": "components/chart/statisticsCard/index",
+    "GraphicCard": "components/graphicCard/index",
+    "UserInfo": "components/wxOpenApi/userInfo/index",
+    "Phone": "components/wxOpenApi/phone/index",
+    "Share": "components/wxOpenApi/share/index",
+    "Lottery": "components/lottery/index",
+    "PhoneCode": "components/wxOpenApi/phoneCode/index"
+  },
+  "actions": {
+    "showToast": "actions/showToast/index",
+    "showModal": "actions/showModal/index"
+  }
+}

@@ -1,0 +1,13 @@
+{
+	"name": "lcap-app-Vsjdkwwm",
+	"version": "1.0.8",
+	"scripts": {},
+	"dependencies": {
+		"@cloudbase/weda-client": "stable",
+		"mobx": "^5.15.4",
+		"lodash.get": "^4.4.2",
+		"lodash.set": "^4.3.2",
+		"miniprogram-gesture": "^1.0.6",
+		"miniprogram-api-promise": "^1.0.4"
+	}
+}

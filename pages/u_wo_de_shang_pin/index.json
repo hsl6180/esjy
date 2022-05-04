@@ -1,0 +1,4 @@
+{
+  "usingComponents": {"a":"/materials/gsd-h5-react/components/container/index","b":"/materials/CLOUDBASE_STANDARD/Title/index","c":"/materials/CLOUDBASE_STANDARD/Button/index","d":"/materials/gsd-h5-react/components/listView/index","e":"/materials/gsd-h5-react/components/text/index","f":"/materials/CLOUDBASE_STANDARD/Icon/index","g":"/materials/gsd-h5-react/components/image/index","h":"/materials/CLOUDBASE_STANDARD/TabBar/index"},
+"navigationBarTitleText":"我的商品"
+}

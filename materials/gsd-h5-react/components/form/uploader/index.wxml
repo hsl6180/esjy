@@ -1,0 +1,27 @@
+<mp-cells>
+    <mp-cell>
+        <mp-uploader
+        max-size="{{maxSize  * 1024 * 1024}}"
+        files="{{files}}"
+        showDelete="{{true}}"
+        ext-class="{{layout}}"
+        bindfail="uploadError"
+        bindsuccess="uploadSuccess"
+        select="{{selectFile}}"
+        upload="{{uploadFile}}"
+        maxCount="{{maxCount}}"
+        title="{{title}}"
+        binddelete="onDelete">
+        </mp-uploader>
+    </mp-cell>
+</mp-cells>
+<!-- uploader delete 实际代码接受 showDelete
+    https://developers.weixin.qq.com/community/develop/doc/000a4e7b9cc158c110aa3961056400
+ -->
+
+ <!-- bind开头的是事件handler，wxml模版中不能带 `{{}}`
+```
+<mp-uploader files="{{files}}" showDelete="{{true}}" ext-class="{{layout}}" bindfail="uploadError" bindsuccess="uploadSuccess" select="{{selectFile}}" upload="{{uploadFile}}" maxCount="{{maxUploadCount}}" title="{{title}}" binddelete="onDelete"></mp-uploader>
+```
+upload 是函数带{{}}， bindtelete直接传函数名字符串
+-->

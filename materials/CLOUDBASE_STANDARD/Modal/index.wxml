@@ -1,0 +1,25 @@
+<wxs src="/common/utils.wxs" module="wxsUtils"/>
+<a id="id1" style="{{id1.style}};{{style}}" className="wa-comp-CLOUDBASE_STANDARD-Modal {{id1.className}} {{className}}" title="{{id1.title}}">
+	<a id="id17" style="{{id17.style}}" className="{{id17.className}}" wx:if="{{id17._waIf}}" title="{{id17.title}}">
+		<a id="id2" style="{{id2.style}}" className="{{id2.className}}" title="{{id2.title}}"/>
+		<a id="id3" style="{{id3.style}}" className="{{id3.className}}" title="{{id3.title}}">
+			<a id="id6" style="{{id6.style}}" className="{{id6.className}}" title="{{id6.title}}" bind:tap="onid6$tap">
+				<d id="id14" style="{{id14.style}}" className="{{id14.className}}" src="{{wxsUtils._getStaticResourceAttribute(id14.src)}}" name="{{id14.name}}" size="{{id14.size}}" color="{{id14.color}}"/>
+			</a>
+			<a id="id4" style="{{id4.style}}" className="{{id4.className}}" title="{{id4.title}}">
+				<b id="id15" style="{{id15.style}}" className="{{id15.className}}" wx:if="{{content}}" text="{{content}}" space="{{id15.space}}" maxLines="{{id15.maxLines}}" userSelect="{{id15.userSelect}}">{{content}}</b>
+				<slot name="customContent" wx:if="{{id12._waIf}}"/>
+			</a>
+			<a id="id5" style="{{id5.style}}" className="{{id5.className}}" title="{{id5.title}}">
+				<c id="id8" style="{{id8.style}}" className="{{id8.className}}" wx:if="{{isDefaultButton}}" lang="{{id8.lang}}" size="{{id8.size}}" type="{{id8.type}}" loading="{{id8.loading}}" disabled="{{id8.disabled}}" formType="{{id8.formType}}" openType="{{id8.openType}}" categoryId="{{id8.categoryId}}" sessionFrom="{{id8.sessionFrom}}" appParameter="{{id8.appParameter}}" sendMessageImg="{{id8.sendMessageImg}}" sendMessagePath="{{id8.sendMessagePath}}" showMessageCard="{{id8.showMessageCard}}" sendMessageTitle="{{id8.sendMessageTitle}}" bind:tap="onid8$tap">{{id8.text}}
+					<b id="id9" style="{{id9.style}}" className="{{id9.className}}" text="{{id9.text}}" space="{{id9.space}}" maxLines="{{id9.maxLines}}" userSelect="{{id9.userSelect}}" slot="text">{{id9.text}}</b>
+				</c>
+				<slot name="customButton" wx:if="{{!isDefaultButton}}"/>
+			</a>
+		</a>
+	</a>
+	<MODAL id="id24" style="{{id24.style}}" className="{{id24.className}}" wx:if="{{id24._waIf}}" size="{{id24.size}}" content="{{content}}" visible="{{visible}}" isDefaultButton="{{isDefaultButton}}" bind:close="onid24$close" bind:confirm="onid24$confirm">
+		<slot name="customButton" wx:if="{{!isDefaultButton}}" slot="customButton"/>
+		<slot name="customContent" wx:if="{{id22._waIf}}" slot="customContent"/>
+	</MODAL>
+</a>

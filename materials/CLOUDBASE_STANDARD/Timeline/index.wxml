@@ -1,0 +1,77 @@
+<wxs src="/common/utils.wxs" module="wxsUtils"/>
+<a id="id1" style="{{id1.style}};{{style}}" className="wa-comp-CLOUDBASE_STANDARD-Timeline {{id1.className}} {{className}}" title="{{id1.title}}">
+	<a id="id72" style="{{id72.style}}" className="{{id72.className}}" wx:if="{{id72._waIf}}" title="{{id72.title}}">
+		<a id="id33" style="{{id33.style}}" className="{{id33.className}}" wx:if="{{id33._waIf}}" title="{{id33.title}}">
+			<a id="{{'id10'+ '-' + iid10}}" style="{{id10[iid10].style}}" className="{{id10[iid10].className}}" wx:for="{{showList}}" wx:for-index="iid10" wx:key="id" title="{{id10[iid10].title}}" bind:tap="onid10$tap">
+				<a id="{{'id12'+ '-' + iid10}}" style="{{id12[iid10].style}}" className="{{id12[iid10].className}}" title="{{id12[iid10].title}}">
+					<a id="{{'id59'+ '-' + iid10}}" style="{{id59[iid10].style}}" className="{{id59[iid10].className}}" wx:if="{{id59[iid10]._waIf}}" title="{{id59[iid10].title}}">
+						<b id="{{'id60'+ '-' + iid10}}" style="{{id60[iid10].style}}" className="{{id60[iid10].className}}" text="{{id60[iid10].text}}" space="{{id60[iid10].space}}" maxLines="{{id60[iid10].maxLines}}" userSelect="{{id60[iid10].userSelect}}">{{id60[iid10].text}}</b>
+					</a>
+					<a id="{{'id28'+ '-' + iid10}}" style="{{id28[iid10].style}}" className="{{id28[iid10].className}}" wx:if="{{id28[iid10]._waIf}}" title="{{id28[iid10].title}}">
+						<a id="{{'id29'+ '-' + iid10}}" style="{{id29[iid10].style}}" className="{{id29[iid10].className}}" title="{{id29[iid10].title}}">
+							<a id="{{'id63'+ '-' + iid10}}" style="{{id63[iid10].style}}" className="{{id63[iid10].className}}" wx:if="{{id63[iid10]._waIf}}" title="{{id63[iid10].title}}"/>
+							<c id="{{'id31'+ '-' + iid10}}" style="{{id31[iid10].style}}" className="{{id31[iid10].className}}" wx:if="{{id31[iid10]._waIf}}" src="{{wxsUtils._getStaticResourceAttribute(id31[iid10].src)}}" name="{{id31[iid10].name}}" size="{{id31[iid10].size}}" color="{{id31[iid10].color}}"/>
+						</a>
+						<a id="{{'id30'+ '-' + iid10}}" style="{{id30[iid10].style}}" className="{{id30[iid10].className}}" wx:if="{{id30[iid10]._waIf}}" title="{{id30[iid10].title}}"/>
+					</a>
+					<a id="{{'id5'+ '-' + iid10}}" style="{{id5[iid10].style}}" className="{{id5[iid10].className}}" title="{{id5[iid10].title}}">
+						<a id="{{'id17'+ '-' + iid10}}" style="{{id17[iid10].style}}" className="{{id17[iid10].className}}" title="{{id17[iid10].title}}">
+							<b id="{{'id16'+ '-' + iid10}}" style="{{id16[iid10].style}}" className="{{id16[iid10].className}}" text="{{id16[iid10].text}}" space="{{id16[iid10].space}}" maxLines="{{id16[iid10].maxLines}}" userSelect="{{id16[iid10].userSelect}}">{{id16[iid10].text}}</b>
+						</a>
+						<a id="{{'id18'+ '-' + iid10}}" style="{{id18[iid10].style}}" className="{{id18[iid10].className}}" title="{{id18[iid10].title}}">
+							<b id="{{'id13'+ '-' + iid10}}" style="{{id13[iid10].style}}" className="{{id13[iid10].className}}" text="{{id13[iid10].text}}" space="{{id13[iid10].space}}" maxLines="{{id13[iid10].maxLines}}" userSelect="{{id13[iid10].userSelect}}">{{id13[iid10].text}}</b>
+						</a>
+						<a id="{{'id20'+ '-' + iid10}}" style="{{id20[iid10].style}}" className="{{id20[iid10].className}}" wx:if="{{id20[iid10]._waIf}}" title="{{id20[iid10].title}}">
+							<b id="{{'id15'+ '-' + iid10}}" style="{{id15[iid10].style}}" className="{{id15[iid10].className}}" text="{{id15[iid10].text}}" space="{{id15[iid10].space}}" maxLines="{{id15[iid10].maxLines}}" userSelect="{{id15[iid10].userSelect}}">{{id15[iid10].text}}</b>
+						</a>
+					</a>
+					<a id="{{'id19'+ '-' + iid10}}" style="{{id19[iid10].style}}" className="{{id19[iid10].className}}" wx:if="{{id19[iid10]._waIf}}" title="{{id19[iid10].title}}">
+						<a id="{{'id21'+ '-' + iid10}}" style="{{id21[iid10].style}}" className="{{id21[iid10].className}}" title="{{id21[iid10].title}}">
+							<c id="{{'id4'+ '-' + iid10}}" style="{{id4[iid10].style}}" className="{{id4[iid10].className}}" wx:if="{{id4[iid10]._waIf}}" src="{{wxsUtils._getStaticResourceAttribute(id4[iid10].src)}}" name="{{id4[iid10].name}}" size="{{id4[iid10].size}}" color="{{id4[iid10].color}}"/>
+							<a id="{{'id70'+ '-' + iid10}}" style="{{id70[iid10].style}}" className="{{id70[iid10].className}}" wx:if="{{id70[iid10]._waIf}}" title="{{id70[iid10].title}}"/>
+						</a>
+						<a id="{{'id11'+ '-' + iid10}}" style="{{id11[iid10].style}}" className="{{id11[iid10].className}}" wx:if="{{id11[iid10]._waIf}}" title="{{id11[iid10].title}}"/>
+					</a>
+				</a>
+			</a>
+		</a>
+		<a id="id37" style="{{id37.style}}" className="{{id37.className}}" wx:if="{{id37._waIf}}" title="{{id37.title}}">
+			<a id="{{'id40'+ '-' + iid40}}" style="{{id40[iid40].style}}" className="{{id40[iid40].className}}" wx:for="{{showList}}" wx:for-index="iid40" wx:key="id" title="{{id40[iid40].title}}" bind:tap="onid40$tap">
+				<a id="{{'id41'+ '-' + iid40}}" style="{{id41[iid40].style}}" className="{{id41[iid40].className}}" title="{{id41[iid40].title}}">
+					<a id="{{'id61'+ '-' + iid40}}" style="{{id61[iid40].style}}" className="{{id61[iid40].className}}" wx:if="{{id61[iid40]._waIf}}" title="{{id61[iid40].title}}">
+						<b id="{{'id62'+ '-' + iid40}}" style="{{id62[iid40].style}}" className="{{id62[iid40].className}}" text="{{id62[iid40].text}}" space="{{id62[iid40].space}}" maxLines="{{id62[iid40].maxLines}}" userSelect="{{id62[iid40].userSelect}}">{{id62[iid40].text}}</b>
+					</a>
+					<a id="{{'id42'+ '-' + iid40}}" style="{{id42[iid40].style}}" className="{{id42[iid40].className}}" wx:if="{{id42[iid40]._waIf}}" title="{{id42[iid40].title}}">
+						<a id="{{'id45'+ '-' + iid40}}" style="{{id45[iid40].style}}" className="{{id45[iid40].className}}" title="{{id45[iid40].title}}">
+							<c id="{{'id47'+ '-' + iid40}}" style="{{id47[iid40].style}}" className="{{id47[iid40].className}}" wx:if="{{id47[iid40]._waIf}}" src="{{wxsUtils._getStaticResourceAttribute(id47[iid40].src)}}" name="{{id47[iid40].name}}" size="{{id47[iid40].size}}" color="{{id47[iid40].color}}"/>
+							<a id="{{'id69'+ '-' + iid40}}" style="{{id69[iid40].style}}" className="{{id69[iid40].className}}" wx:if="{{id69[iid40]._waIf}}" title="{{id69[iid40].title}}"/>
+						</a>
+						<a id="{{'id46'+ '-' + iid40}}" style="{{id46[iid40].style}}" className="{{id46[iid40].className}}" wx:if="{{id46[iid40]._waIf}}" title="{{id46[iid40].title}}">
+							<d id="{{'id48'+ '-' + iid40}}" style="{{id48[iid40].style}}" className="{{id48[iid40].className}}"/>
+						</a>
+					</a>
+					<a id="{{'id43'+ '-' + iid40}}" style="{{id43[iid40].style}}" className="{{id43[iid40].className}}" title="{{id43[iid40].title}}">
+						<a id="{{'id49'+ '-' + iid40}}" style="{{id49[iid40].style}}" className="{{id49[iid40].className}}" title="{{id49[iid40].title}}">
+							<b id="{{'id52'+ '-' + iid40}}" style="{{id52[iid40].style}}" className="{{id52[iid40].className}}" text="{{id52[iid40].text}}" space="{{id52[iid40].space}}" maxLines="{{id52[iid40].maxLines}}" userSelect="{{id52[iid40].userSelect}}">{{id52[iid40].text}}</b>
+						</a>
+						<a id="{{'id50'+ '-' + iid40}}" style="{{id50[iid40].style}}" className="{{id50[iid40].className}}" title="{{id50[iid40].title}}">
+							<b id="{{'id53'+ '-' + iid40}}" style="{{id53[iid40].style}}" className="{{id53[iid40].className}}" text="{{id53[iid40].text}}" space="{{id53[iid40].space}}" maxLines="{{id53[iid40].maxLines}}" userSelect="{{id53[iid40].userSelect}}">{{id53[iid40].text}}</b>
+						</a>
+						<a id="{{'id51'+ '-' + iid40}}" style="{{id51[iid40].style}}" className="{{id51[iid40].className}}" wx:if="{{id51[iid40]._waIf}}" title="{{id51[iid40].title}}">
+							<b id="{{'id54'+ '-' + iid40}}" style="{{id54[iid40].style}}" className="{{id54[iid40].className}}" text="{{id54[iid40].text}}" space="{{id54[iid40].space}}" maxLines="{{id54[iid40].maxLines}}" userSelect="{{id54[iid40].userSelect}}">{{id54[iid40].text}}</b>
+						</a>
+					</a>
+					<a id="{{'id44'+ '-' + iid40}}" style="{{id44[iid40].style}}" className="{{id44[iid40].className}}" wx:if="{{id44[iid40]._waIf}}" title="{{id44[iid40].title}}">
+						<a id="{{'id55'+ '-' + iid40}}" style="{{id55[iid40].style}}" className="{{id55[iid40].className}}" title="{{id55[iid40].title}}">
+							<c id="{{'id57'+ '-' + iid40}}" style="{{id57[iid40].style}}" className="{{id57[iid40].className}}" wx:if="{{id57[iid40]._waIf}}" src="{{wxsUtils._getStaticResourceAttribute(id57[iid40].src)}}" name="{{id57[iid40].name}}" size="{{id57[iid40].size}}" color="{{id57[iid40].color}}"/>
+							<a id="{{'id71'+ '-' + iid40}}" style="{{id71[iid40].style}}" className="{{id71[iid40].className}}" wx:if="{{id71[iid40]._waIf}}" title="{{id71[iid40].title}}"/>
+						</a>
+						<a id="{{'id56'+ '-' + iid40}}" style="{{id56[iid40].style}}" className="{{id56[iid40].className}}" wx:if="{{id56[iid40]._waIf}}" title="{{id56[iid40].title}}">
+							<d id="{{'id58'+ '-' + iid40}}" style="{{id58[iid40].style}}" className="{{id58[iid40].className}}"/>
+						</a>
+					</a>
+				</a>
+			</a>
+		</a>
+	</a>
+</a>

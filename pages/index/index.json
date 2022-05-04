@@ -1,0 +1,4 @@
+{
+  "usingComponents": {"a":"/materials/gsd-h5-react/components/container/index","b":"/materials/gsd-h5-react/components/image/index","c":"/materials/CLOUDBASE_STANDARD/Form/index","d":"/materials/CLOUDBASE_STANDARD/FormInput/index","e":"/materials/CLOUDBASE_STANDARD/GridLayout/index","f":"/materials/gsd-h5-react/components/text/index","g":"/materials/gsd-h5-react/components/listView/index","h":"/materials/CLOUDBASE_STANDARD/Icon/index","i":"/materials/CLOUDBASE_STANDARD/NavBar/index","j":"/materials/CLOUDBASE_STANDARD/TabBar/index"},
+"backgroundColor":"#fff","backgroundColorBottom":"#fff","backgroundColorTop":"#fff","backgroundTextStyle":"dark","navigationBarBackgroundColor":"#fff","navigationBarTextStyle":"black","navigationBarTitleText":"首页","navigationStyle":"custom","pageOrientation":"portrait","reachBottomDistance":50
+}

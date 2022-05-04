@@ -1,0 +1,21 @@
+<block wx:if="{{weDaHasLogin}}">
+	<wxs src="/common/utils.wxs" module="wxsUtils" data-weui-theme="light"/>
+	<f id="id27" style="{{id27.style}}" className="{{id27.className}}" activeColor="{{id27.activeColor}}" backgroundColor="{{id27.backgroundColor}}" backgroundImage="{{id27.backgroundImage}}" backgroundType="{{id27.backgroundType}}" color="{{id27.color}}" iconSize="{{id27.iconSize}}" layoutType="{{id27.layoutType}}" position="{{id27.position}}" route="{{id27.route}}" routeType="{{id27.routeType}}" tabs="{{id27.tabs}}" value="{{id27.value}}"/>
+	<g id="id43" style="{{id43.style}}" className="{{id43.className}}" back="{{id43.back}}" backgroundColor="{{id43.backgroundColor}}" home="{{id43.home}}" iconTheme="{{id43.iconTheme}}" mode="{{id43.mode}}" textColor="{{id43.textColor}}" textSize="{{id43.textSize}}" title="{{id43.title}}" bind:back="onid43$back" bind:home="onid43$home"/>
+	<a id="id10" style="{{id10.style}}" className="{{id10.className}}" datasource="{{id10.datasource}}" orderBy="{{id10.orderBy}}" orderType="{{id10.orderType}}" pageSize="{{id10.pageSize}}" pagination="{{id10.pagination}}" template="{{id10.template}}" where="{{id10.where}}" bind:onDataChange="onid10$onDataChange">
+		<b id="{{'id18'+ '-' + iid18}}" style="{{id18[iid18].style}}" className="{{id18[iid18].className}}" wx:for="{{id18}}" wx:for-index="iid18" wx:key="id" bind:tap="onid18$tap">
+			<b id="{{'id19'+ '-' + iid18}}" style="{{id19[iid18].style}}" className="{{id19[iid18].className}}">
+				<b id="{{'id25'+ '-' + iid18}}" style="{{id25[iid18].style}}" className="{{id25[iid18].className}}">
+					<e id="{{'id26'+ '-' + iid18}}" style="{{id26[iid18].style}}" className="{{id26[iid18].className}}" alt="{{id26[iid18].alt}}" fit="{{id26[iid18].fit}}" imgPreview="{{id26[iid18].imgPreview}}" lazyLoad="{{id26[iid18].lazyLoad}}" maskClosable="{{id26[iid18].maskClosable}}" mode="{{id26[iid18].mode}}" showMenuByLongpress="{{id26[iid18].showMenuByLongpress}}" src="{{wxsUtils._getStaticResourceAttribute(id26[iid18].src)}}"/>
+				</b>
+				<b id="{{'id20'+ '-' + iid18}}" style="{{id20[iid18].style}}" className="{{id20[iid18].className}}">
+					<c id="{{'id21'+ '-' + iid18}}" style="{{id21[iid18].style}}" className="{{id21[iid18].className}}" level="{{id21[iid18].level}}" maxLines="{{id21[iid18].maxLines}}" space="{{id21[iid18].space}}" text="{{id21[iid18].text}}" userSelect="{{id21[iid18].userSelect}}">{{id21[iid18].text}}</c>
+					<c id="{{'id22'+ '-' + iid18}}" style="{{id22[iid18].style}}" className="{{id22[iid18].className}}" level="{{id22[iid18].level}}" maxLines="{{id22[iid18].maxLines}}" space="{{id22[iid18].space}}" text="{{id22[iid18].text}}" userSelect="{{id22[iid18].userSelect}}">{{id22[iid18].text}}</c>
+				</b>
+				<b id="{{'id23'+ '-' + iid18}}" style="{{id23[iid18].style}}" className="{{id23[iid18].className}}">
+					<d id="{{'id24'+ '-' + iid18}}" style="{{id24[iid18].style}}" className="{{id24[iid18].className}}" color="{{id24[iid18].color}}" name="{{id24[iid18].name}}" size="{{id24[iid18].size}}" src="{{wxsUtils._getStaticResourceAttribute(id24[iid18].src)}}"/>
+				</b>
+			</b>
+		</b>
+	</a>
+</block>

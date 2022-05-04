@@ -1,0 +1,4 @@
+{
+  "usingComponents": {"a":"/materials/CLOUDBASE_STANDARD/Media/index","b":"/materials/CLOUDBASE_STANDARD/Divider/index","c":"/materials/gsd-h5-react/components/listView/index","d":"/materials/gsd-h5-react/components/container/index","e":"/materials/gsd-h5-react/components/text/index","f":"/materials/gsd-h5-react/components/image/index","g":"/materials/CLOUDBASE_STANDARD/GridLayout/index","h":"/materials/CLOUDBASE_STANDARD/Item/index","i":"/materials/CLOUDBASE_STANDARD/Form/index","j":"/materials/CLOUDBASE_STANDARD/FormInput/index","k":"/materials/CLOUDBASE_STANDARD/Button/index","l":"/materials/CLOUDBASE_STANDARD/FormRadio/index","m":"/materials/CLOUDBASE_STANDARD/Title/index","n":"/materials/CLOUDBASE_STANDARD/TabBar/index"},
+"navigationBarTitleText":"支付界面","pageOrientation":"portrait","reachBottomDistance":50
+}

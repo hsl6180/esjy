@@ -1,0 +1,4 @@
+{
+  "component": true,
+  "usingComponents": {"a":"/materials/gsd-h5-react/components/container/index","b":"/materials/gsd-h5-react/components/text/index","c":"/materials/gsd-h5-react/components/button/index","d":"/materials/CLOUDBASE_STANDARD/Icon/index"}
+}

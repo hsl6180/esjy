@@ -1,0 +1,27 @@
+{
+  "useExtendedLib": {
+    "weui": true
+  },
+  "pages": [
+    "pages/u_deng_lu/index",
+    "pages/index/index",
+    "pages/mine/index",
+    "pages/u_xiao_xi/index",
+    "pages/u_she_zhi/index",
+    "pages/u_ding_dan_dong_tai/index",
+    "pages/u_wo_de_ding_dan/index",
+    "pages/u_shang_pin_xiang_qin_1/index",
+    "pages/u_wo_de_shang_pin/index",
+    "pages/u_wo_de_shang_jia_sha/index",
+    "pages/u_sou_suo_jie_guo/index",
+    "pages/wap382l886g/index",
+    "pages/u_gou_mai_jie_mian/index",
+    "pages/u_ce_shi/index",
+    "pages/u_liao_tian/index",
+    "pages/u_shou_huo_xin_xi/index",
+    "pages/wa6ps5nbr5lg/index"
+  ],
+  "subpackages": [],
+  "homePageId": "u_deng_lu",
+  "sitemapLocation": "sitemap.json"
+}

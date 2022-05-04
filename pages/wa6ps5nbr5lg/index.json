@@ -1,0 +1,4 @@
+{
+  "usingComponents": {"a":"/materials/gsd-h5-react/components/container/index","b":"/materials/gsd-h5-react/components/listView/index","c":"/materials/CLOUDBASE_STANDARD/Layout/index","d":"/materials/gsd-h5-react/components/image/index","e":"/materials/CLOUDBASE_STANDARD/Title/index","f":"/materials/gsd-h5-react/components/text/index","g":"/materials/CLOUDBASE_STANDARD/Button/index","h":"/materials/CLOUDBASE_STANDARD/Divider/index","i":"/materials/CLOUDBASE_STANDARD/TabBar/index"},
+"backgroundColor":"#fff","backgroundColorBottom":"#fff","backgroundColorTop":"#fff","backgroundTextStyle":"dark","enablePullDownRefresh":true,"navigationBarBackgroundColor":"#000","navigationBarTextStyle":"white","navigationBarTitleText":"我的商品详情","navigationStyle":"default","pageOrientation":"portrait","reachBottomDistance":50
+}

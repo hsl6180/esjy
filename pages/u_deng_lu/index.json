@@ -1,0 +1,4 @@
+{
+  "usingComponents": {"a":"/materials/CLOUDBASE_STANDARD/Modal/index","b":"/materials/gsd-h5-react/components/wxOpenApi/userInfo/index"},
+"navigationBarTitleText":"登录"
+}

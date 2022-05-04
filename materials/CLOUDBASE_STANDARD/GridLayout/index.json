@@ -1,0 +1,4 @@
+{
+  "component": true,
+  "usingComponents": {"a":"/materials/gsd-h5-react/components/container/index","b":"/materials/CLOUDBASE_STANDARD/Row/index","c":"/materials/CLOUDBASE_STANDARD/Col/index"}
+}

@@ -1,0 +1,4 @@
+<wxs src="/common/utils.wxs" module="wxsUtils"/>
+<a id="id5" style="{{id5.style}};{{style}}" className="wa-comp-CLOUDBASE_STANDARD-Divider {{id5.className}} {{className}}" title="{{id5.title}}">
+	<a id="id7" style="{{id7.style}}" className="{{id7.className}}" title="{{id7.title}}"/>
+</a>

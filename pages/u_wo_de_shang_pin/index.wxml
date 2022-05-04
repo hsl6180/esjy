@@ -1,0 +1,26 @@
+<block wx:if="{{weDaHasLogin}}">
+	<wxs src="/common/utils.wxs" module="wxsUtils" data-weui-theme="light"/>
+	<h id="id198" style="{{id198.style}}" className="{{id198.className}}" activeColor="{{id198.activeColor}}" backgroundColor="{{id198.backgroundColor}}" backgroundImage="{{id198.backgroundImage}}" backgroundType="{{id198.backgroundType}}" color="{{id198.color}}" iconSize="{{id198.iconSize}}" layoutType="{{id198.layoutType}}" position="{{id198.position}}" route="{{id198.route}}" routeType="{{id198.routeType}}" tabs="{{id198.tabs}}" value="{{id198.value}}"/>
+	<a id="id46" style="{{id46.style}}" className="{{id46.className}}" title="{{id46.title}}">
+		<b id="id48" style="{{id48.style}}" className="{{id48.className}}" color="{{id48.color}}" justify="{{id48.justify}}" level="{{id48.level}}" text="{{id48.text}}">{{id48.text}}</b>
+		<d id="id181" style="{{id181.style}}" className="{{id181.className}}" datasource="{{id181.datasource}}" orderBy="{{id181.orderBy}}" orderType="{{id181.orderType}}" pageSize="{{id181.pageSize}}" pagination="{{id181.pagination}}" template="{{id181.template}}" where="{{id181.where}}" bind:onDataChange="onid181$onDataChange">
+			<a id="{{'id189'+ '-' + iid189}}" style="{{id189[iid189].style}}" className="{{id189[iid189].className}}" wx:for="{{id189}}" wx:for-index="iid189" wx:key="id" bind:tap="onid189$tap">
+				<a id="{{'id190'+ '-' + iid189}}" style="{{id190[iid189].style}}" className="{{id190[iid189].className}}">
+					<a id="{{'id196'+ '-' + iid189}}" style="{{id196[iid189].style}}" className="{{id196[iid189].className}}">
+						<g id="{{'id197'+ '-' + iid189}}" style="{{id197[iid189].style}}" className="{{id197[iid189].className}}" alt="{{id197[iid189].alt}}" fit="{{id197[iid189].fit}}" imgPreview="{{id197[iid189].imgPreview}}" lazyLoad="{{id197[iid189].lazyLoad}}" maskClosable="{{id197[iid189].maskClosable}}" mode="{{id197[iid189].mode}}" showMenuByLongpress="{{id197[iid189].showMenuByLongpress}}" src="{{wxsUtils._getStaticResourceAttribute(id197[iid189].src)}}"/>
+					</a>
+					<a id="{{'id191'+ '-' + iid189}}" style="{{id191[iid189].style}}" className="{{id191[iid189].className}}">
+						<e id="{{'id192'+ '-' + iid189}}" style="{{id192[iid189].style}}" className="{{id192[iid189].className}}" level="{{id192[iid189].level}}" maxLines="{{id192[iid189].maxLines}}" space="{{id192[iid189].space}}" text="{{id192[iid189].text}}" userSelect="{{id192[iid189].userSelect}}">{{id192[iid189].text}}</e>
+						<e id="{{'id193'+ '-' + iid189}}" style="{{id193[iid189].style}}" className="{{id193[iid189].className}}" level="{{id193[iid189].level}}" maxLines="{{id193[iid189].maxLines}}" space="{{id193[iid189].space}}" text="{{id193[iid189].text}}" userSelect="{{id193[iid189].userSelect}}">{{id193[iid189].text}}</e>
+					</a>
+					<a id="{{'id194'+ '-' + iid189}}" style="{{id194[iid189].style}}" className="{{id194[iid189].className}}">
+						<f id="{{'id195'+ '-' + iid189}}" style="{{id195[iid189].style}}" className="{{id195[iid189].className}}" color="{{id195[iid189].color}}" name="{{id195[iid189].name}}" size="{{id195[iid189].size}}" src="{{wxsUtils._getStaticResourceAttribute(id195[iid189].src)}}"/>
+					</a>
+				</a>
+			</a>
+		</d>
+		<a id="id55" style="{{id55.style}}" className="{{id55.className}}" title="{{id55.title}}">
+			<c id="id67" style="{{id67.style}}" className="{{id67.className}}" appParameter="{{id67.appParameter}}" categoryId="{{id67.categoryId}}" content="{{id67.content}}" disabled="{{id67.disabled}}" formType="{{id67.formType}}" loading="{{id67.loading}}" openType="{{id67.openType}}" sendMessageImg="{{id67.sendMessageImg}}" sendMessagePath="{{id67.sendMessagePath}}" sendMessageTitle="{{id67.sendMessageTitle}}" sessionFrom="{{id67.sessionFrom}}" showMessageCard="{{id67.showMessageCard}}" size="{{id67.size}}" type="{{id67.type}}" bind:tap="onid67$tap"/>
+		</a>
+	</a>
+</block>

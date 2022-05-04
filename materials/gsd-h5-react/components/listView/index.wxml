@@ -1,0 +1,40 @@
+<scroll-view scroll-y scroll-with-animation lower-threshold="5" style="{{style}}"
+  class="weda-list-view__containor weda-ui {{className}}">
+  <!-- 列表插槽 -->
+  <view class="{{template === 'cardList' ? 'weda-list-view-card' : ''}}" id="weda-list-view_content">
+    <slot></slot>
+  </view>
+
+  <view class="weda-list-view__more {{'weda-list-view__more-' + pagination}}">
+    <!-- 加载更多 -->
+    <block wx:if="{{pagination==='loadMoreButton' && pageSize * pageNo < total}}">
+      <view class="weda-list-view__more-text" bindtap="handleNext">加载更多</view>
+    </block>
+    <!-- 触底刷新 -->
+    <block wx:elif="{{pagination==='bottomLoad'}}">
+      <view class="weda-list-view__bottom-load" id="weda-list-view_sign">
+        <view class="weda-list-view__more-symbol" wx:if="{{loading}}">
+          <view class="weda-list-view__symbol-item"></view>
+          <view class="weda-list-view__symbol-item"></view>
+          <view class="weda-list-view__symbol-item"></view>
+        </view>
+      </view>
+    </block>
+    <!-- 分页器 -->
+    <block wx:elif="{{pagination==='pagination'}}">
+      <view class="weda-list-view__more-pagination">
+        <view class="weda-list-view__pagination-pre {{pageNo > 1 ? 'active': ''}}" bindtap="handlePre">
+          <image class="weda-list-view__pagination-icon" src='arrow-right-line.svg' />
+          上一页
+        </view>
+        <view class="weda-list-view__pagination-text">{{pageStr}}</view>
+        <view class="weda-list-view__pagination-next {{pageSize * pageNo < total ? 'active' : ''}}"
+          bindtap="handleNext">
+          <image class="weda-list-view__pagination-icon" src='arrow-right-line.svg' />
+          下一页
+        </view>
+      </view>
+    </block>
+    <block wx:else></block>
+  </view>
+</scroll-view>

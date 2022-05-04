@@ -1,0 +1,20 @@
+<block wx:if="{{weDaHasLogin}}">
+	<wxs src="/common/utils.wxs" module="wxsUtils" data-weui-theme="light"/>
+	<f id="id101" style="{{id101.style}}" className="{{id101.className}}" activeColor="{{id101.activeColor}}" backgroundColor="{{id101.backgroundColor}}" backgroundImage="{{id101.backgroundImage}}" backgroundType="{{id101.backgroundType}}" color="{{id101.color}}" iconSize="{{id101.iconSize}}" layoutType="{{id101.layoutType}}" position="{{id101.position}}" route="{{id101.route}}" routeType="{{id101.routeType}}" tabs="{{id101.tabs}}" value="{{id101.value}}"/>
+	<a id="id46" style="{{id46.style}}" className="{{id46.className}}" title="{{id46.title}}">
+		<b id="id48" style="{{id48.style}}" className="{{id48.className}}" color="{{id48.color}}" justify="{{id48.justify}}" level="{{id48.level}}" text="{{id48.text}}">{{id48.text}}</b>
+		<c id="id84" style="{{id84.style}}" className="{{id84.className}}" datasource="{{id84.datasource}}" orderBy="{{id84.orderBy}}" orderType="{{id84.orderType}}" pageSize="{{id84.pageSize}}" pagination="{{id84.pagination}}" template="{{id84.template}}" where="{{id84.where}}" bind:onDataChange="onid84$onDataChange">
+			<a id="{{'id102'+ '-' + iid102}}" style="{{id102[iid102].style}}" className="{{id102[iid102].className}}" wx:for="{{id102}}" wx:for-index="iid102" wx:key="id" bind:tap="onid102$tap">
+				<a id="{{'id103'+ '-' + iid102}}" style="{{id103[iid102].style}}" className="{{id103[iid102].className}}">
+					<a id="{{'id104'+ '-' + iid102}}" style="{{id104[iid102].style}}" className="{{id104[iid102].className}}">
+						<d id="{{'id105'+ '-' + iid102}}" style="{{id105[iid102].style}}" className="{{id105[iid102].className}}" level="{{id105[iid102].level}}" maxLines="{{id105[iid102].maxLines}}" space="{{id105[iid102].space}}" text="{{id105[iid102].text}}" userSelect="{{id105[iid102].userSelect}}">{{id105[iid102].text}}</d>
+						<d id="{{'id106'+ '-' + iid102}}" style="{{id106[iid102].style}}" className="{{id106[iid102].className}}" level="{{id106[iid102].level}}" maxLines="{{id106[iid102].maxLines}}" space="{{id106[iid102].space}}" text="{{id106[iid102].text}}" userSelect="{{id106[iid102].userSelect}}">{{id106[iid102].text}}</d>
+					</a>
+					<a id="{{'id107'+ '-' + iid102}}" style="{{id107[iid102].style}}" className="{{id107[iid102].className}}">
+						<e id="{{'id108'+ '-' + iid102}}" style="{{id108[iid102].style}}" className="{{id108[iid102].className}}" color="{{id108[iid102].color}}" name="{{id108[iid102].name}}" size="{{id108[iid102].size}}" src="{{wxsUtils._getStaticResourceAttribute(id108[iid102].src)}}"/>
+					</a>
+				</a>
+			</a>
+		</c>
+	</a>
+</block>

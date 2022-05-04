@@ -1,0 +1,42 @@
+/*!
+ * Weda 自定义样式
+ */
+
+page .weda-ui {
+  --weui-BRAND: #006eff;
+  --weui-TAG-TEXT-BLUE: #0067eb;
+  --weui-BTN-DEFAULT-COLOR: #576b95;
+  --weui-WECHAT: #07c160;
+  --weui-TAG-TEXT-GREEN: #06ae56;
+  --weui-BG-2: rgba(255, 255, 255, 0);
+}
+
+.weui-form {
+  min-height: 0%;
+  padding: 0;
+}
+
+.weui-cells {
+  margin-top: 0;
+}
+
+.weda-ui.weui-form .weui-cells__tips {
+  margin-bottom: 16px;
+}
+
+.weui-cells__group_form .weui-cells__tips_warn {
+  color: #fa5151;
+  color: var(--weui-RED);
+}
+
+.weda-ui .weui-btn_input-clear {
+  display: none;
+}
+
+.weda-ui .weui-input.focus.not-placeholder-shown + .weui-btn_input-clear {
+  display: inline;
+}
+
+.weda-ui.weda-picker .weui-btn_primary:not(.weui-btn_disabled):active {
+  background-color: var(--weui-TAG-TEXT-BLUE);
+}

@@ -1,0 +1,14 @@
+.wa-comp-CLOUDBASE_STANDARD-Divider .lcap-divider {
+  display: flex;
+  clear: both;
+  width: 100%;
+  min-width: 100%;
+  margin: 24rpx 0;
+  box-sizing: border-box;
+  padding: 0;
+  color: rgba(0, 0, 0, 0.85);
+  font-size: 14rpx;
+  line-height: 1.5715;
+  list-style: none;
+  border-top: 1rpx solid rgba(0, 0, 0, 0.08);
+}

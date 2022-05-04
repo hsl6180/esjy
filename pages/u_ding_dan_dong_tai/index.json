@@ -1,0 +1,4 @@
+{
+  "usingComponents": {"a":"/materials/gsd-h5-react/components/container/index","b":"/materials/CLOUDBASE_STANDARD/Timeline/index","c":"/materials/CLOUDBASE_STANDARD/TabBar/index"},
+"navigationBarTitleText":"订单动态"
+}

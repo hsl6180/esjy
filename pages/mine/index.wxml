@@ -1,0 +1,33 @@
+<block wx:if="{{weDaHasLogin}}">
+	<wxs src="/common/utils.wxs" module="wxsUtils" data-weui-theme="light"/>
+	<f id="id77" style="{{id77.style}}" className="{{id77.className}}" activeColor="{{id77.activeColor}}" backgroundColor="{{id77.backgroundColor}}" backgroundImage="{{id77.backgroundImage}}" backgroundType="{{id77.backgroundType}}" color="{{id77.color}}" iconSize="{{id77.iconSize}}" layoutType="{{id77.layoutType}}" position="{{id77.position}}" route="{{id77.route}}" routeType="{{id77.routeType}}" tabs="{{id77.tabs}}" value="{{id77.value}}"/>
+	<e id="id76" style="{{id76.style}}" className="{{id76.className}}" back="{{id76.back}}" backgroundColor="{{id76.backgroundColor}}" home="{{id76.home}}" iconTheme="{{id76.iconTheme}}" mode="{{id76.mode}}" textColor="{{id76.textColor}}" textSize="{{id76.textSize}}" title="{{id76.title}}"/>
+	<a id="id14" style="{{id14.style}}" className="{{id14.className}}" title="{{id14.title}}">
+		<a id="id15" style="{{id15.style}}" className="{{id15.className}}" title="{{id15.title}}">
+			<b id="id78" style="{{id78.style}}" className="{{id78.className}}" columnRatio="{{id78.columnRatio}}" gutter="{{id78.gutter}}" mobileLayout="{{id78.mobileLayout}}" rowGutter="{{id78.rowGutter}}">
+				<c id="id79" style="{{id79.style}}" className="{{id79.className}}" alt="{{id79.alt}}" fit="{{id79.fit}}" imgPreview="{{id79.imgPreview}}" lazyLoad="{{id79.lazyLoad}}" maskClosable="{{id79.maskClosable}}" mode="{{id79.mode}}" showMenuByLongpress="{{id79.showMenuByLongpress}}" src="{{wxsUtils._getStaticResourceAttribute(id79.src)}}" slot="slot0"/>
+				<d id="id80" style="{{id80.style}}" className="{{id80.className}}" level="{{id80.level}}" maxLines="{{id80.maxLines}}" space="{{id80.space}}" text="{{id80.text}}" userSelect="{{id80.userSelect}}" slot="slot1">{{id80.text}}</d>
+				<c id="id81" style="{{id81.style}}" className="{{id81.className}}" alt="{{id81.alt}}" fit="{{id81.fit}}" imgPreview="{{id81.imgPreview}}" lazyLoad="{{id81.lazyLoad}}" mode="{{id81.mode}}" showMenuByLongpress="{{id81.showMenuByLongpress}}" src="{{wxsUtils._getStaticResourceAttribute(id81.src)}}" bind:tap="onid81$tap" slot="slot2"/>
+			</b>
+		</a>
+		<a id="id16" style="{{id16.style}}" className="{{id16.className}}" title="{{id16.title}}">
+			<a id="id21" style="{{id21.style}}" className="{{id21.className}}" title="{{id21.title}}" bind:tap="onid21$tap">
+				<a id="id22" style="{{id22.style}}" className="{{id22.className}}" title="{{id22.title}}">
+					<c id="id24" style="{{id24.style}}" className="{{id24.className}}" alt="{{id24.alt}}" fit="{{id24.fit}}" imgPreview="{{id24.imgPreview}}" lazyLoad="{{id24.lazyLoad}}" maskClosable="{{id24.maskClosable}}" mode="{{id24.mode}}" showMenuByLongpress="{{id24.showMenuByLongpress}}" src="{{wxsUtils._getStaticResourceAttribute(id24.src)}}"/>
+					<d id="id25" style="{{id25.style}}" className="{{id25.className}}" level="{{id25.level}}" maxLines="{{id25.maxLines}}" space="{{id25.space}}" text="{{id25.text}}" userSelect="{{id25.userSelect}}">{{id25.text}}</d>
+				</a>
+				<a id="id23" style="{{id23.style}}" className="{{id23.className}}" title="{{id23.title}}">
+					<c id="id26" style="{{id26.style}}" className="{{id26.className}}" alt="{{id26.alt}}" fit="{{id26.fit}}" imgPreview="{{id26.imgPreview}}" lazyLoad="{{id26.lazyLoad}}" maskClosable="{{id26.maskClosable}}" mode="{{id26.mode}}" showMenuByLongpress="{{id26.showMenuByLongpress}}" src="{{wxsUtils._getStaticResourceAttribute(id26.src)}}"/>
+				</a>
+			</a>
+			<a id="id48" style="{{id48.style}}" className="{{id48.className}}" title="{{id48.title}}" bind:tap="onid48$tap">
+				<a id="id49" style="{{id49.style}}" className="{{id49.className}}" title="{{id49.title}}">
+					<c id="id51" style="{{id51.style}}" className="{{id51.className}}" alt="{{id51.alt}}" fit="{{id51.fit}}" imgPreview="{{id51.imgPreview}}" lazyLoad="{{id51.lazyLoad}}" maskClosable="{{id51.maskClosable}}" mode="{{id51.mode}}" showMenuByLongpress="{{id51.showMenuByLongpress}}" src="{{wxsUtils._getStaticResourceAttribute(id51.src)}}"/>
+					<d id="id52" style="{{id52.style}}" className="{{id52.className}}" maxLines="{{id52.maxLines}}" space="{{id52.space}}" text="{{id52.text}}" userSelect="{{id52.userSelect}}">{{id52.text}}</d>
+				</a>
+				<c id="id53" style="{{id53.style}}" className="{{id53.className}}" alt="{{id53.alt}}" fit="{{id53.fit}}" imgPreview="{{id53.imgPreview}}" lazyLoad="{{id53.lazyLoad}}" maskClosable="{{id53.maskClosable}}" mode="{{id53.mode}}" showMenuByLongpress="{{id53.showMenuByLongpress}}" src="{{wxsUtils._getStaticResourceAttribute(id53.src)}}"/>
+			</a>
+			<a id="id83" style="{{id83.style}}" className="{{id83.className}}"/>
+		</a>
+	</a>
+</block>
